@@ -1,5 +1,5 @@
 import './App.css';
-import './Card';
+import AulaCard from './AulaCard/AulaCard';
 
 function App() {
   return (
@@ -9,8 +9,11 @@ function App() {
         <div className="subtitle"> para Ensino Fundamental II </div>
       </header>
       <body>
-      <AulaCard/>
-
+        <AulaCard
+          title="Aula 1"
+          content="Content"
+          button="Acessar"
+        />
       </body>
     </div>
   );

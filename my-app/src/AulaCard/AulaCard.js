@@ -1,7 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import React, { Component } from 'react';
+import './AulaCardStyle.css';
 
-class AulaCard extends React.Component {
+export default class AulaCard extends Component {
     render() {
       return (
         <Card style={{ width: '18rem' }}>
