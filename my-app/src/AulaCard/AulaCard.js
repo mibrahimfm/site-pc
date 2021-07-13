@@ -1,19 +1,29 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import React, { Component } from 'react';
-import './AulaCardStyle.css';
 
 export default class AulaCard extends Component {
     render() {
+      const style = {
+        container:{
+          margin: '10px',
+          width: '18rem',
+        }
+      }
+
       return (
-        <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card style={style.container}>
+        <Card.Img variant="top" src={this.props.image} />
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
           <Card.Text>
           {this.props.content}
           </Card.Text>
-          <Button variant="primary">{this.props.button}</Button>
+          <Button  
+            href={this.props.link}
+            variant="primary">
+              {this.props.button}
+          </Button>
         </Card.Body>
       </Card>
       )
