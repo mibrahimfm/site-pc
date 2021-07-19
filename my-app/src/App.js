@@ -1,4 +1,5 @@
 import './App.css';
+import card1 from './images/aula_1.png'
 import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
@@ -7,8 +8,7 @@ function App() {
   return (
     <div >
       <header>
-        <div className="title"> Sequência Didática de Pensamento Computacional </div>
-        <div className="subtitle"> para Ensino Fundamental II </div>
+        <div className="title"> Sequência Didática de Pensamento Computacional <br></br> para Ensino Fundamental II </div>
       </header>
       <body>
       <Grid container spacing={2}>
@@ -16,7 +16,7 @@ function App() {
           <Grid container justifyContent="center" spacing={2}>
               <Grid item>
                 <AulaCard
-                  image='./public/images/aula_1.png'
+                  image={card1}
                   title="Aula 1"
                   subtitle="Exercitando o Pensamento Lógico"
                   content="Quatro exercícios para exercitar o pensamento computacional para iniciantes. Não requer computadores. Material pode ser impresso."
