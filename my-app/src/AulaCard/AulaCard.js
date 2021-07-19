@@ -11,7 +11,7 @@ export default class AulaCard extends Component {
     }
   }  
 
-  handleShow = () => {this.setState(!this.state)};      
+  handleModal = () => {this.setState({modal: !this.state.showModal})};
 
    render() {
 
@@ -48,18 +48,17 @@ export default class AulaCard extends Component {
           <Card.Text>
           {this.props.content}
           </Card.Text>
-          {this.state.showModal && <ConteudoModal/> }
         </Card.Body>
         <Card.Footer style={style.button}>
             <Button
             href={this.props.link}
             variant="primary"
-            onClick={handleModal()}
+            onClick={this.handleModal()}
             >
               {this.props.button}
           </Button>
         </Card.Footer>
-
+        {this.state.showModal && <ConteudoModal show='this.state.showModal'/> }
       </Card>
       )
     }

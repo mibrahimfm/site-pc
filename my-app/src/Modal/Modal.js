@@ -1,23 +1,15 @@
-
-
-import Button from 'react-bootstrap/Button';
 import React, { Component } from 'react';
 import Modal from 'react-bootstrap/Modal';
 
 export default class ConteudoModal extends Component {
-    render() {
-        const [show, setShow] = useState(false);
-  
-        const handleClose = () => setShow(false);
-        const handleShow = () => setShow(true);      
+    render() { 
+
+      let handleClose = false;
 
       return (
         <>
-          <Button variant="primary" onClick={handleShow}>
-            Launch demo modal
-          </Button>
     
-          <Modal show={show} onHide={handleClose}>
+          <Modal show={this.props.show} onHide={handleClose}>
             <Modal.Header closeButton>
               <Modal.Title>Modal heading</Modal.Title>
             </Modal.Header>
