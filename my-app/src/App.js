@@ -16,8 +16,9 @@ function App() {
           <Grid container justifyContent="center" spacing={2}>
               <Grid item>
                 <AulaCard
-                  image='./public/images/aula 1.png'
-                  title="Aula 1 - Exercitando o Pensamento Lógico"
+                  image='./public/images/aula_1.png'
+                  title="Aula 1"
+                  subtitle="Exercitando o Pensamento Lógico"
                   content="Quatro exercícios para exercitar o pensamento computacional para iniciantes. Não requer computadores. Material pode ser impresso."
                   button="Acessar"
                   link='https://drive.google.com/drive/folders/1FmeW0elAy9IHoO7TbGhynKOQeGQ5IJ0N'

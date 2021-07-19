@@ -16,6 +16,8 @@ export default class AulaCard extends Component {
         <Card.Img variant="top" src={this.props.image} />
         <Card.Body>
           <Card.Title>{this.props.title}</Card.Title>
+          <Card.Subtitle></Card.Subtitle>
+          <br></br>
           <Card.Text>
           {this.props.content}
           </Card.Text>
