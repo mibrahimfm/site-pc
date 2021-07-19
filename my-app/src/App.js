@@ -1,5 +1,19 @@
 import './App.css';
 import card1 from './images/aula_1.png'
+import card2 from './images/aula_2.png'
+import card3 from './images/aula_3.png'
+import card4 from './images/aula_4.png'
+import card5 from './images/aula_5.png'
+import card6 from './images/aula_6.png'
+import card7 from './images/aula_7.png'
+import card8 from './images/aula_8.png'
+import card9 from './images/aula_9.png'
+import card10 from './images/aula_10.png'
+import card11 from './images/aula_11.png'
+import card12 from './images/aula_12.png'
+import card13 from './images/aula_13.png'
+import card14 from './images/aula_14.png'
+import card15 from './images/aula_15.png'
 import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
@@ -26,6 +40,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card2}
                   title="Aula 2"
                   subtitle="Introdução ao Sequenciamento de Ações"
                   content="Conceito de algoritmos. Não requer computadores. Material pode ser impresso."
@@ -35,6 +50,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card3}
                   title="Aula 3"
                   subtitle="Introdução aos Laços de Repetição"
                   content="Exercícios em site interativo."
@@ -44,6 +60,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card4}
                   title="Aula 4"
                   subtitle="Introdução aos Laços de Repetição"
                   content="Exercícios em site interativo."
@@ -53,6 +70,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card5}
                   title="Aula 5"
                   subtitle="Introdução ao Plano Cartesiano"
                   content="Exercícios em site interativo."
@@ -62,6 +80,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card6}
                   title="Aula 6"
                   subtitle="Anime o seu nome"
                   content="Exercícios em site interativo."
@@ -71,6 +90,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card7}
                   title="Aula 7"
                   subtitle="Blocos de eventos"
                   content="Exercícios em site interativo."
@@ -80,6 +100,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card8}
                   title="Aula 8"
                   subtitle="Condicionais - Parte 1"
                   content="Exercícios em site interativo."
@@ -89,6 +110,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card9}
                   title="Aula 9"
                   subtitle="Condicionais - Parte 2"
                   content="Exercícios em site interativo."
@@ -98,6 +120,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card10}
                   title="Aula 10"
                   subtitle="Introdução às Variáveis"
                   content="Exercícios em site interativo."
@@ -107,6 +130,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card11}
                   title="Aula 11"
                   subtitle="Jogo de Perguntas e Respostas - Parte 1"
                   content="Exercícios em site interativo."
@@ -116,6 +140,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card12}
                   title="Aula 12"
                   subtitle="Jogo de Perguntas e Respostas - Parte 2"
                   content="Exercícios em site interativo."
@@ -125,6 +150,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card13}
                   title="Aula 13"
                   subtitle="Jogo de Desviar"
                   content="Exercícios em site interativo."
@@ -134,6 +160,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card14}
                   title="Aula 14"
                   subtitle="Árvores de Decisão - Parte 1"
                   content="Não requer computadores. Material pode ser impresso."
@@ -143,6 +170,7 @@ function App() {
               </Grid>
               <Grid item>
                 <AulaCard
+                  image={card15}
                   title="Aula 15"
                   subtitle="Árvores de Decisão - Parte 2"
                   content="Não requer computadores. Material pode ser impresso."
