@@ -24,11 +24,12 @@ export default class AulaCard extends Component {
 
       return (
         <Card style={style.container}>
-        <Card.Img variant="top" src={this.props.image} />
         <Card.Body>
-          <Card.Title>{this.props.title}</Card.Title>
+          <Card.Title>{this.props.title}</Card.Title>          
           <Card.Subtitle>{this.props.subtitle}</Card.Subtitle>
           <br></br>
+          <Card.Img variant="top" src={this.props.image} />        
+          <br></br><br></br>
           <Card.Text>
           {this.props.content}
           </Card.Text>
