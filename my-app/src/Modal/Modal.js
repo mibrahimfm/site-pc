@@ -9,7 +9,7 @@ export default class ConteudoModal extends Component {
       return (
         <>
     
-          <Modal show={this.props.show} onHide={handleClose}>
+          <Modal >
             <Modal.Header closeButton>
               <Modal.Title>Modal heading</Modal.Title>
             </Modal.Header>

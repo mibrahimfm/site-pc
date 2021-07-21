@@ -4,14 +4,22 @@ import React, { Component } from 'react';
 import ConteudoModal from '../Modal/Modal';
 
 export default class AulaCard extends Component {
-  constructor(props){
-    super(props);
+  constructor() {
+    super();
     this.state = {
-      showModal: false,
-    }
-  }  
+      show: false
+    };
+    this.showModal = this.showModal.bind(this);
+    this.hideModal = this.hideModal.bind(this);
+  }
 
-  handleModal = () => this.setState({ show: true });
+  showModal = () => {
+    this.setState({ show: true });
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+  };
 
    render() {
 
@@ -51,14 +59,14 @@ export default class AulaCard extends Component {
         </Card.Body>
         <Card.Footer style={style.button}>
             <Button
-            href={this.props.link}
+            //href={this.props.link}
             variant="primary"
-            // onClick={this.handleModal()}
+            onClick={this.showModal}
             >
               {this.props.button}
           </Button>
         </Card.Footer>
-        {/* {this.state.showModal && <ConteudoModal show='this.state.showModal'/> } */}
+        {this.state.show && <ConteudoModal /> }
       </Card>
       )
     }
