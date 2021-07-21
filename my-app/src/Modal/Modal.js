@@ -1,22 +1,74 @@
-import React, { Component } from 'react';
-import Modal from 'react-bootstrap/Modal';
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Modal from '@material-ui/core/Modal';
+import Button from 'react-bootstrap/Button';
 
-export default class ConteudoModal extends Component {
-    render() { 
+function rand() {
+  return Math.round(Math.random() * 20) - 10;
+}
 
-      let handleClose = true;
+function getModalStyle() {
+  const top = 50 + rand();
+  const left = 50 + rand();
 
-      return (
-        <>
-    
-          <Modal show={this.props.show} onHide={handleClose}>
-            <Modal.Header closeButton>
-              <Modal.Title>Modal heading</Modal.Title>
-            </Modal.Header>
-            <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+  return {
+    top: `${top}%`,
+    left: `${left}%`,
+    transform: `translate(-${top}%, -${left}%)`,
+  };
+}
 
-          </Modal>
-        </>
-      );
-    }
+const useStyles = makeStyles((theme) => ({
+  paper: {
+    position: 'absolute',
+    width: 400,
+    backgroundColor: theme.palette.background.paper,
+    border: '2px solid #000',
+    boxShadow: theme.shadows[5],
+    padding: theme.spacing(2, 4, 3),
+  },
+}));
+
+export default function SimpleModal() {
+  const classes = useStyles();
+  // getModalStyle is not a pure function, we roll the style only on the first render
+  const [modalStyle] = React.useState(getModalStyle);
+  const [open, setOpen] = React.useState(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const body = (
+    <div style={modalStyle} className={classes.paper}>
+      <h2 id="simple-modal-title">Text in a modal</h2>
+      <p id="simple-modal-description">
+        Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+      </p>
+      <SimpleModal />
+    </div>
+  );
+
+  return (
+    <div>
+      <Button
+            variant="primary"
+            onClick={handleOpen}
+            >
+              Acessar
+          </Button>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="simple-modal-title"
+        aria-describedby="simple-modal-description"
+      >
+        {body}
+      </Modal>
+    </div>
+  );
 }

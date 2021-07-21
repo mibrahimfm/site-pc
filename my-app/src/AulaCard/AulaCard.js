@@ -1,8 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import React, { Component } from 'react';
-import Modal from '@material-ui/core/Modal';
-// import ConteudoModal from '../Modal/Modal.js';
+import SimpleModal from '../Modal/Modal';
 
 export default class AulaCard extends Component {
   constructor() {
@@ -54,16 +53,14 @@ export default class AulaCard extends Component {
           </Card.Text>
         </Card.Body>
         <Card.Footer style={style.button}>
-        <Modal open={this.showModal} onClose={this.hideModal}>
-  teste
-</Modal>
-            <Button
+          {SimpleModal()}
+            {/* <Button
             //href={this.props.link}
             variant="primary"
             onClick={handleOpen}
             >
               {this.props.button}
-          </Button>
+          </Button> */}
         </Card.Footer>
         <Modal
           open={open}
