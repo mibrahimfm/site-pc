@@ -4,7 +4,7 @@ import Modal from 'react-bootstrap/Modal';
 export default class ConteudoModal extends Component {
     render() { 
 
-      let handleClose = false;
+      let handleClose = true;
 
       return (
         <>
