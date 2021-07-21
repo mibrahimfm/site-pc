@@ -11,7 +11,7 @@ export default class AulaCard extends Component {
     }
   }  
 
-  handleModal = () => {this.setState({modal: !this.state.showModal})};
+  handleModal = () => this.setState({ show: true });
 
    render() {
 
