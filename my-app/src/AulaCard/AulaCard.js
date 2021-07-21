@@ -1,22 +1,10 @@
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+
 import React, { Component } from 'react';
-import SimpleModal from '../Modal/Modal';
+import SimpleModal from '../Modal/Modal.js';
 
 export default class AulaCard extends Component {
-  constructor() {
-  }
-
    render() {
-    const [open, setOpen] = React.useState(false);
-
-    const handleOpen = () => {
-      setOpen(true);
-    };
-  
-    const handleClose = () => {
-      setOpen(false);
-    };
 
       const style = {
         container:{
@@ -53,21 +41,12 @@ export default class AulaCard extends Component {
           </Card.Text>
         </Card.Body>
         <Card.Footer style={style.button}>
-          {SimpleModal()}
-            {/* <Button
-            //href={this.props.link}
-            variant="primary"
-            onClick={handleOpen}
-            >
-              {this.props.button}
-          </Button> */}
-        </Card.Footer>
-        <Modal
-          open={open}
-          onClose={handleClose}
-        >
-          <div>texto</div>
-        </Modal>
+            <SimpleModal link={this.props.link}
+            title={this.props.title}
+            subtitle={this.props.subtitle}
+            exercicios={this.props.exercicios}>
+            </SimpleModal>
+        </Card.Footer>        
       </Card>
       )
     }

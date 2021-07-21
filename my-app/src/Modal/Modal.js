@@ -2,15 +2,11 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Button from 'react-bootstrap/Button';
-
-function rand() {
-  return Math.round(Math.random() * 20) - 10;
-}
+import pdf1 from '../conteudo-aulas/aula1/Exercícios - Iniciante.pdf'
 
 function getModalStyle() {
-  const top = 50 + rand();
-  const left = 50 + rand();
-
+  const top = 50;
+  const left = 50;
   return {
     top: `${top}%`,
     left: `${left}%`,
@@ -29,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SimpleModal() {
+export default function SimpleModal(props) {
   const classes = useStyles();
   // getModalStyle is not a pure function, we roll the style only on the first render
   const [modalStyle] = React.useState(getModalStyle);
@@ -45,22 +41,21 @@ export default function SimpleModal() {
 
   const body = (
     <div style={modalStyle} className={classes.paper}>
-      <h2 id="simple-modal-title">Text in a modal</h2>
-      <p id="simple-modal-description">
-        Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-      </p>
-      <SimpleModal />
+      <h2 id="simple-modal-title">{props.title}</h2>
+      <h4 id="simple-modal-subtitle">{props.subtitle}</h4>
+      <a id="simple-modal-description" href={pdf1} download>
+        Conteúdo da {props.title}
+      </a>
+
     </div>
   );
 
   return (
     <div>
       <Button
-            variant="primary"
-            onClick={handleOpen}
-            >
-              Acessar
-          </Button>
+        variant="primary" onClick={handleOpen}>
+        Acessar
+      </Button>
       <Modal
         open={open}
         onClose={handleClose}

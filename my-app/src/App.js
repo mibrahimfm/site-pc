@@ -36,6 +36,7 @@ function App() {
                   content="Introdução ao pensamento computacional para iniciantes. Não requer computadores. Material pode ser impresso."
                   button="Acessar"
                   link='https://drive.google.com/drive/folders/1FmeW0elAy9IHoO7TbGhynKOQeGQ5IJ0N'
+                  exercicios='./conteudo-aulas/aula1/Exercícios - Iniciante.pdf'
                 />
               </Grid>
               <Grid item>
