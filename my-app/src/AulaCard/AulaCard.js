@@ -6,23 +6,18 @@ import Modal from '@material-ui/core/Modal';
 
 export default class AulaCard extends Component {
   constructor() {
-    super();
-    this.state = {
-      show: false
-    };
-    this.showModal = this.showModal.bind(this);
-    this.hideModal = this.hideModal.bind(this);
   }
 
-  showModal = () => {
-    this.setState({ show: true });
-  };
-
-  hideModal = () => {
-    this.setState({ show: false });
-  };
-
    render() {
+    const [open, setOpen] = React.useState(false);
+
+    const handleOpen = () => {
+      setOpen(true);
+    };
+  
+    const handleClose = () => {
+      setOpen(false);
+    };
 
       const style = {
         container:{
@@ -65,12 +60,17 @@ export default class AulaCard extends Component {
             <Button
             //href={this.props.link}
             variant="primary"
-
-            onClick={this.showModal}
+            onClick={handleOpen}
             >
               {this.props.button}
           </Button>
         </Card.Footer>
+        <Modal
+          open={open}
+          onClose={handleClose}
+        >
+          <div>texto</div>
+        </Modal>
       </Card>
       )
     }
