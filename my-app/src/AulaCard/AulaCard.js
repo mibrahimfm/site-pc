@@ -53,12 +53,12 @@ export default class AulaCard extends Component {
             <Button
             href={this.props.link}
             variant="primary"
-            onClick={this.handleModal()}
+            // onClick={this.handleModal()}
             >
               {this.props.button}
           </Button>
         </Card.Footer>
-        {this.state.showModal && <ConteudoModal show='this.state.showModal'/> }
+        {/* {this.state.showModal && <ConteudoModal show='this.state.showModal'/> } */}
       </Card>
       )
     }
