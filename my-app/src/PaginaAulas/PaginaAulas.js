@@ -1,20 +1,20 @@
 import './PaginaAulas.css';
-import card1 from './images/aula_1.png'
-import card2 from './images/aula_2.png'
-import card3 from './images/aula_3.png'
-import card4 from './images/aula_4.png'
-import card5 from './images/aula_5.png'
-import card6 from './images/aula_6.png'
-import card7 from './images/aula_7.png'
-import card8 from './images/aula_8.png'
-import card9 from './images/aula_9.png'
-import card10 from './images/aula_10.png'
-import card11 from './images/aula_11.png'
-import card12 from './images/aula_12.png'
-import card13 from './images/aula_13.png'
-import card14 from './images/aula_14.png'
-import card15 from './images/aula_15.png'
-import AulaCard from './AulaCard/AulaCard';
+import card1 from './../images/aula_1.png'
+import card2 from './../images/aula_2.png'
+import card3 from './../images/aula_3.png'
+import card4 from './../images/aula_4.png'
+import card5 from './../images/aula_5.png'
+import card6 from './../images/aula_6.png'
+import card7 from './../images/aula_7.png'
+import card8 from './../images/aula_8.png'
+import card9 from './../images/aula_9.png'
+import card10 from './../images/aula_10.png'
+import card11 from './../images/aula_11.png'
+import card12 from './../images/aula_12.png'
+import card13 from './../images/aula_13.png'
+import card14 from './../images/aula_14.png'
+import card15 from './../images/aula_15.png'
+import AulaCard from './../AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
 

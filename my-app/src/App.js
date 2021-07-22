@@ -1,5 +1,5 @@
 import './App.css';
-import PaginaAulas from './AulaCard/PaginaAulas/PaginaAulas';
+import PaginaAulas from './PaginaAulas/PaginaAulas';
 
 function App() {
   return (
