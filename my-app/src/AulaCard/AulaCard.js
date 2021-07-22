@@ -10,7 +10,7 @@ export default class AulaCard extends Component {
         container:{
           margin: '10px',
           width: '18rem',
-          height: '560px'
+          height: '445px'
         },
         
         header: {
