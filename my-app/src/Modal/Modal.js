@@ -56,7 +56,7 @@ export default function SimpleModal(props) {
   return (
     <div>
       <Button
-        variant="primary" onClick={handleOpen}>
+        variant="dark" onClick={handleOpen}>
         Acessar
       </Button>
       <Modal

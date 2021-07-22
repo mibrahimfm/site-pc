@@ -1,9 +1,9 @@
-import { Container } from "@material-ui/core"
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const Navigation = () => {
     return (
         <>
-            <Navbar collapseOnSelect fixed='top' bg='dark' variant='dark' bg='sm'>
+            <Navbar collapseOnSelect fixed='top' bg='dark' variant='dark' expand='sm'>
                 <Container>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                     <Navbar.Collapse>
