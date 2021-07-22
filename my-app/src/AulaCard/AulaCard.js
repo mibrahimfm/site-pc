@@ -36,15 +36,15 @@ export default class AulaCard extends Component {
           <br></br>
           <Card.Img variant="top" style={style.image} src={this.props.image} />        
           <br></br><br></br>
-          <Card.Text>
-          {this.props.content}
-          </Card.Text>
         </Card.Body>
         <Card.Footer style={style.button}>
             <SimpleModal link={this.props.link}
             title={this.props.title}
             subtitle={this.props.subtitle}
-            exercicios={this.props.exercicios}>
+            exercicios={this.props.exercicios}
+            recursos={this.props.descricao_recursos}
+            objetivo={this.props.content}
+            >
             </SimpleModal>
         </Card.Footer>        
       </Card>

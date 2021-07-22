@@ -43,10 +43,13 @@ export default function SimpleModal(props) {
     <div style={modalStyle} className={classes.paper}>
       <h2 id="simple-modal-title">{props.title}</h2>
       <h4 id="simple-modal-subtitle">{props.subtitle}</h4>
+      <div>
+        Recursos e Atividades:
+        {props.recursos}
+      </div>
       <a id="simple-modal-description" href={pdf1} download>
         Conteúdo da {props.title}
       </a>
-
     </div>
   );
 

@@ -32,11 +32,12 @@ function App() {
                 <AulaCard
                   image={card1}
                   title="Aula 1"
-                  subtitle="Exercitando o Pensamento Lógico"
-                  content="Introdução ao pensamento computacional para iniciantes. Não requer computadores. Material pode ser impresso."
+                  subtitle="Raciocínio Lógico"
+                  content="Resolver desafios de lógica e registrar suas soluções."
                   button="Acessar"
                   link='https://drive.google.com/drive/folders/1FmeW0elAy9IHoO7TbGhynKOQeGQ5IJ0N'
                   exercicios='./conteudo-aulas/aula1/Exercícios - Iniciante.pdf'
+                  descricao_recursos="Resolução dos desafios do nível iniciante do Estacionamennto Algorítmico. Além da resolução, os alunos devem fazer o registro dos passos para resolver os desafios e testá-los."
                 />
               </Grid>
               <Grid item>
