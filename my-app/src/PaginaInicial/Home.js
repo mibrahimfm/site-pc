@@ -1,5 +1,5 @@
 import './Home.css';
-import TabelaAulas from './TabelaAulas/TabelaAulas';
+import TabelaAulas from './../TabelaAulas/TabelaAulas';
 
 function Home() {
     return(
@@ -23,9 +23,10 @@ function Home() {
                     realizadas, de forma que o aluno percorra o continuum das metáforas até chegar à metáfora Estrangeiro 
                     sem Tradutor.</p>
                  
-                <h3>Visão Geral da Sequência Didática</h3>                
-                <p>Explicação resumida projeto</p>
-                <TabelaAulas></TabelaAulas>
+                <h3 >Visão Geral da Sequência Didática</h3>
+                <div className="table">
+                    <TabelaAulas></TabelaAulas>
+                </div>                
             </body>
         </div>
     );
