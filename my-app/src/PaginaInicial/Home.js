@@ -1,5 +1,5 @@
 import './Home.css';
-import TabelaAulas from './TabelaAulas/TabelaAulas';
+import TabelaAulas from './../TabelaAulas/TabelaAulas';
 
 function Home() {
     return(
