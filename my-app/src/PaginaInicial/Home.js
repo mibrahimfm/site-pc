@@ -9,7 +9,7 @@ function Home() {
             </header>
             <body className="body">
                 <h3>Sequência didática de Pensamento Computacional para Ensino Fundamental II</h3>
-                <p>A sequência didática foi elaborada por <a>Oto Braz de Assunção em sua Tese de Mestrado</a> 
+                <p>A sequência didática foi elaborada por <a href='/sobre-o-projeto'>Oto Braz de Assunção em sua Tese de Mestrado</a> 
                 e fundamentada nas nas Metáforas de Perspectivas Culturais (MPCs). </p>
                 <i className="quote">As metáforas indicam que a interação com o sistema computacional pode ser
                                 vista como uma “viagem” e que os seus usuários são “viajantes”. Assim, considera-se
