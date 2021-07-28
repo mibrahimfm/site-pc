@@ -1,10 +1,13 @@
+import './PaginaTese.css';
+
+
 function PaginaTese(){
     return(
         <div>
             <header>
                 <div className="title">Sobre o projeto</div>
             </header>
-            <body>
+            <body className="body">
                 <h3>O projeto</h3>
                 <p>O material didático disponível no site faz parte do projeto <i>[Nome do projeto]</i>  da UFMG,
                     que tem como objetivo auxiliar na evolução do ensino do pensamento computacional no ensino básico e fundamental no Brasil

@@ -22,7 +22,7 @@ function PaginaAulas() {
   return (
     <div >
       <header>
-        <div className="title"> Sequência Didática de Pensamento Computacional <br></br> para Ensino Fundamental II </div>
+        <div className="title-aulas"> Sequência Didática de Pensamento Computacional <br></br> para Ensino Fundamental II </div>
       </header>
       <body>
       <Grid container spacing={2}>

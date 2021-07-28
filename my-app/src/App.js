@@ -1,4 +1,3 @@
-import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import Navigation from './Navigation/Navigation';
 import PaginaAulas from './PaginaAulas/PaginaAulas';
