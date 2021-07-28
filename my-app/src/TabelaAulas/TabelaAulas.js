@@ -63,10 +63,10 @@ export default function TabelaAulas() {
       <Table className={classes.table} aria-label="customized table">
         <TableHead>
           <TableRow>
-            <StyledTableCell align="right">Aula</StyledTableCell>
-            <StyledTableCell align="right">Conteúdo</StyledTableCell>
-            <StyledTableCell align="right">Objetivo</StyledTableCell>
-            <StyledTableCell align="right">Recursos e Atividades</StyledTableCell>
+            <StyledTableCell align="left">Aula</StyledTableCell>
+            <StyledTableCell align="left">Conteúdo</StyledTableCell>
+            <StyledTableCell align="left">Objetivo</StyledTableCell>
+            <StyledTableCell align="left">Recursos e Atividades</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
