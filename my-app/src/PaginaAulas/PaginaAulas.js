@@ -17,6 +17,36 @@ import card15 from './../images/aula_15.png'
 import AulaCard from './../AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
+import pdf1Aula1 from '../conteudo-aulas/aula1/Exercícios - Iniciante.pdf'
+import pdf2Aula1 from '../conteudo-aulas/aula1/Aula 1 - Apresentação.pptx'
+import pdf3Aula1 from '../conteudo-aulas/aula1/Desafios.docx'
+import pdf1Aula2 from '../conteudo-aulas/aula2/Criando Algoritmos.pdf'
+import pdf2Aula2 from '../conteudo-aulas/aula2/Aula 2 - Apresentação.pdf'
+import pdf3Aula2 from '../conteudo-aulas/aula2/Criando Figuras.pdf'
+import pdf2Aula3 from '../conteudo-aulas/aula3/Aula 3 - Apresentação.pptx'
+import pdf2Aula4 from '../conteudo-aulas/aula4/Aula 4 - Apresentação.pptx'
+import pdf2Aula5 from '../conteudo-aulas/aula5/Aula 5 - Apresentação.pptx'
+import pdf1Aula6 from '../conteudo-aulas/aula6/Cartões de Votação.docx'
+import pdf2Aula6 from '../conteudo-aulas/aula6/Aula  6 - Apresentação.pptx'
+import pdf4Aula6 from '../conteudo-aulas/aula6/Aula 6 - Roteiro.docx'
+import pdf2Aula7 from '../conteudo-aulas/aula7/Aula 7 - Apresentação.pptx'
+import pdf4Aula7 from '../conteudo-aulas/aula7/Aula 7 - Roteiro.docx'
+import pdf2Aula8 from '../conteudo-aulas/aula8/Aula 8 - Apresentação.pptx'
+import pdf4Aula8 from '../conteudo-aulas/aula8/Aula 8 - Roteiro.pdf'
+import pdf2Aula9 from '../conteudo-aulas/aula9/Aula 9 - Apresentação.pptx'
+import pdf4Aula9 from '../conteudo-aulas/aula9/Aula 9 - Roteiro.docx'
+import pdf2Aula10 from '../conteudo-aulas/aula10/Aula 10 - Apresentação.pdf'
+import pdf4Aula10 from '../conteudo-aulas/aula10/Aula 10 - Roteiro.pdf'
+import pdf2Aula11 from '../conteudo-aulas/aula11/Aula 11 - Apresentação.pptx'
+import pdf4Aula11 from '../conteudo-aulas/aula11/Aula 11 - Roteiro.docx'
+import pdf2Aula12 from '../conteudo-aulas/aula12/Aula 12 - Apresentação.pdf'
+import pdf4Aula12 from '../conteudo-aulas/aula12/Aula 12 - Roteiro.docx'
+import pdf2Aula13 from '../conteudo-aulas/aula13/Aula 13 - Apresentação.pptx'
+import pdf4Aula13 from '../conteudo-aulas/aula13/Aula 13 - Roteiro.docx'
+import pdf1Aula14 from '../conteudo-aulas/aula14/Aula 14 - Árvore de Decisão.pdf'
+import pdf2Aula14 from '../conteudo-aulas/aula14/Aula 14 - Apresentação.pdf'
+import pdf2Aula15 from '../conteudo-aulas/aula15/Aula 15 - Apresentação.pdf'
+
 
 function PaginaAulas() {
   return (
@@ -34,9 +64,10 @@ function PaginaAulas() {
                   title="Aula 1"
                   subtitle="Raciocínio Lógico"
                   content="Resolver desafios de lógica e registrar suas soluções."
-                  button="Acessar"
+                  link1={pdf1Aula1}
+                  link2={pdf2Aula1}
+                  link3={pdf3Aula1}
                   link='https://drive.google.com/drive/folders/1FmeW0elAy9IHoO7TbGhynKOQeGQ5IJ0N'
-                  exercicios='./conteudo-aulas/aula1/Exercícios - Iniciante.pdf'
                   descricao_recursos="Resolução dos desafios do nível iniciante do Estacionamennto Algorítmico. Além da resolução, os alunos devem fazer o registro dos passos para resolver os desafios e testá-los."
                 />
               </Grid>
@@ -46,7 +77,9 @@ function PaginaAulas() {
                   title="Aula 2"
                   subtitle="Introdução ao Sequenciamento de Ações"
                   content="Conceito de algoritmos. Não requer computadores. Material pode ser impresso."
-                  button="Acessar"
+                  link1={pdf1Aula2}
+                  link2={pdf2Aula2}
+                  link3={pdf3Aula2}
                   link="https://drive.google.com/drive/folders/1D_BfjZAmsjnwlQbl0DOnoGBDGl--d5jJs"
                 />
               </Grid>
@@ -56,7 +89,7 @@ function PaginaAulas() {
                   title="Aula 3"
                   subtitle="Introdução aos Laços de Repetição"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula3}
                   link="https://drive.google.com/drive/folders/17-V1mCREFhAi_u89h74vRpGdiKY_aUY2"
                 />
               </Grid>
@@ -66,7 +99,7 @@ function PaginaAulas() {
                   title="Aula 4"
                   subtitle="Introdução aos Laços de Repetição"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula4}
                   link="https://drive.google.com/drive/folders/1tehgg3CzMwyUPrVmJaK4LyrOpAg04iO_"
                 />
               </Grid>
@@ -76,7 +109,7 @@ function PaginaAulas() {
                   title="Aula 5"
                   subtitle="Introdução ao Plano Cartesiano"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula5}
                   link="https://drive.google.com/drive/folders/1ptT4DZGqbU6EtUoAwRWT5SycCY4TeA30"
                 />
               </Grid>
@@ -86,7 +119,9 @@ function PaginaAulas() {
                   title="Aula 6"
                   subtitle="Anime o seu nome"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link1={pdf1Aula6}
+                  link2={pdf2Aula6}
+                  link4={pdf4Aula6}
                   link="https://drive.google.com/drive/folders/14ecl_xTY0SC5HJXjFIS_YlOYBm3d859C"
                 />
               </Grid>
@@ -96,7 +131,8 @@ function PaginaAulas() {
                   title="Aula 7"
                   subtitle="Blocos de eventos"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula7}
+                  link4={pdf4Aula7}
                   link="https://drive.google.com/drive/folders/1g20T0F1KPGPtlWiMs6mEhcD9alCoYOp-"
                 />
               </Grid>
@@ -106,7 +142,8 @@ function PaginaAulas() {
                   title="Aula 8"
                   subtitle="Condicionais - Parte 1"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula8}
+                  link4={pdf4Aula8}
                   link="https://drive.google.com/drive/folders/1kqqL-PkA3GsB85Nrmnk1bwlFsHitiLsz"
                 />
               </Grid>
@@ -116,7 +153,8 @@ function PaginaAulas() {
                   title="Aula 9"
                   subtitle="Condicionais - Parte 2"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula9}
+                  link4={pdf4Aula9}
                   link="https://drive.google.com/drive/folders/1TY5M_G37Yd95IDxuIcccAMuFs3qsXOWU"
                 />
               </Grid>
@@ -126,7 +164,8 @@ function PaginaAulas() {
                   title="Aula 10"
                   subtitle="Introdução às Variáveis"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula10}
+                  link4={pdf4Aula10}
                   link="https://drive.google.com/drive/folders/14YAB41hJb9I7DHXBWnQs8Ra2co34_t3N"
                 />
               </Grid>
@@ -136,7 +175,8 @@ function PaginaAulas() {
                   title="Aula 11"
                   subtitle="Jogo de Perguntas e Respostas - Parte 1"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula11}
+                  link4={pdf4Aula11}
                   link="https://drive.google.com/drive/folders/1fhFHzjoo3euIzRUsAG1Ouzy_Kh7nlL1k"
                 />
               </Grid>
@@ -146,7 +186,8 @@ function PaginaAulas() {
                   title="Aula 12"
                   subtitle="Jogo de Perguntas e Respostas - Parte 2"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula12}
+                  link4={pdf4Aula12}
                   link="https://drive.google.com/drive/folders/1yI4BUQwVpe4hVGOMkHIHe7b_sijsRsiA"
                 />
               </Grid>
@@ -156,7 +197,8 @@ function PaginaAulas() {
                   title="Aula 13"
                   subtitle="Jogo de Desviar"
                   content="Exercícios em site interativo."
-                  button="Acessar"
+                  link2={pdf2Aula13}
+                  link4={pdf4Aula13}
                   link="https://drive.google.com/drive/folders/18bVsTSiOU18CkxqHsuM9-Nad5ls5RkE6"
                 />
               </Grid>
@@ -165,8 +207,9 @@ function PaginaAulas() {
                   image={card14}
                   title="Aula 14"
                   subtitle="Árvores de Decisão - Parte 1"
-                  content="Não requer computadores. Material pode ser impresso."
-                  button="Acessar"
+                  content="Não requer computadores. Material pode ser impresso."                 
+                  link1={pdf1Aula14}
+                  link2={pdf2Aula14}
                   link="https://drive.google.com/drive/folders/1R2l9sz35e5W2tgnfsrfhSAt9gjh_zpGM"
                 />
               </Grid>
@@ -176,13 +219,14 @@ function PaginaAulas() {
                   title="Aula 15"
                   subtitle="Árvores de Decisão - Parte 2"
                   content="Não requer computadores. Material pode ser impresso."
-                  button="Acessar"
+                  link2={pdf2Aula15}
                   link="https://drive.google.com/drive/folders/14gMCa7DZ-X_ek6HuN5v_3AsUasdf41QL"
                 />
               </Grid>
           </Grid>
         </Grid>
       </Grid>
+      <p>Todo o material pode ser encontrado no link: <a target="_blank" href="https://drive.google.com/drive/folders/1uAqN4TJovNb9IOHYhSuIALxh-yFWuavQ">aqui</a></p>
       </body>
     </div>
   );

@@ -2,7 +2,6 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Button from 'react-bootstrap/Button';
-import pdf1 from '../conteudo-aulas/aula1/Exercícios - Iniciante.pdf'
 
 function getModalStyle() {
   const top = 50;
@@ -11,6 +10,7 @@ function getModalStyle() {
     top: `${top}%`,
     left: `${left}%`,
     transform: `translate(-${top}%, -${left}%)`,
+    width: `700px`
   };
 }
 
@@ -38,6 +38,47 @@ export default function SimpleModal(props) {
   const handleClose = () => {
     setOpen(false);
   };
+  let link1, link2, link3, link4;
+  link1 = "";
+  link2 = "";
+  link3 = "";
+  link4 = "";
+  if(props.link1){
+    link1 =  
+    <ul>  
+      <a id="simple-modal-description" href={props.link1} download>
+          Material {props.title}
+        </a>
+      <br></br>
+    </ul>
+  }
+  if(props.link2){
+    link2 =  
+    <ul>  
+      <a id="simple-modal-description" href={props.link2} download>
+      Apresentação {props.title}
+        </a>
+      <br></br>
+    </ul>
+  }  
+  if(props.link3){
+    link3 =  
+    <ul>  
+      <a id="simple-modal-description" href={props.link3} download>
+        Desafio {props.title}
+      </a>
+      <br></br>
+    </ul>
+  }
+  if(props.link4){
+    link4 =  
+    <ul>  
+      <a id="simple-modal-description" href={props.link4} download>
+        Roteiro {props.title}
+      </a>
+      <br></br>
+    </ul>
+  }
 
   const body = (
     <div style={modalStyle} className={classes.paper}>
@@ -47,14 +88,21 @@ export default function SimpleModal(props) {
         Recursos e Atividades:
         {props.recursos}
       </div>
-      <a id="simple-modal-description" href={pdf1} download>
-        Conteúdo da {props.title}
-      </a>
+      <br></br>
+      {link1}
+      {link2}
+      {link3}
+      {link4}
+      <ul>
+        <a id="simple-modal-description" href={props.link} target="_blank">
+          Drive com todos os materiais dessa aula
+        </a>
+      </ul>
     </div>
   );
 
   return (
-    <div>
+    <div >
       <Button
         variant="dark" onClick={handleOpen}>
         Acessar
