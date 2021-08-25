@@ -1,5 +1,5 @@
 import './PaginaTese.css';
-
+import TabelaMetaforas from './../TabelaMetaforas/TabelaMetaforas';
 
 function PaginaTese(){
     return(
@@ -9,12 +9,14 @@ function PaginaTese(){
             </header>
             <body className="body">
                 <h3>O projeto</h3>
-                <p>O material didático disponível no site faz parte do projeto <i>[Nome do projeto]</i>  da UFMG,
-                    que tem como objetivo auxiliar na evolução do ensino do pensamento computacional no ensino básico e fundamental no Brasil
+                <p>O material didático disponível no site faz parte de um projeto da UFMG
+                    que tem como objetivo auxiliar na evolução do ensino do pensamento computacional no ensino básico e fundamental no Brasil.
                 </p>
-                <p>Esse material foi desenvolvido por Oto Braz Assunção, durante seu mestrado. A motivação para esse trabalho foi 
-                    criar uma sequência didática que permitisse a professores(mesmo aqueles não muito familiarizados com a área)
-                    introduzirem a área de computação aos alunos do Ensino Fundamental II
+                <p>Esse material foi desenvolvido por Oto Braz Assunção, durante seu mestrado. Essa sequência foi inicialmente desenvolvida 
+                    à luz das Metáforas de Perspectivas Computacionais
+                    e testada em salas de aula em uma pesquisa-ação em conjunto com o Centro Pedagógico da UFMG, 
+                    com a motivaçãode foi criar uma sequência didática que permitisse a professores(mesmo aqueles não muito familiarizados com a área)
+                    introduzirem a área de computação aos alunos do Ensino Fundamental II.
                 </p>
                 <h3>Metáforas de Perspectivas Computacionais</h3>
                 <p>
@@ -70,6 +72,16 @@ function PaginaTese(){
                 </dl>
 
                 </p>
+
+                <h3>Metodologia</h3>
+                <h5>Geração da Sequência Didática</h5> 
+                <p>
+                    Como já mencionado, a sequência didática foi criada com base nas MPCs. Isso foi feito com o objetivo de introduzir gradativamente a computação a alunos do Ensino Fundamental II
+                    e fomentar o Pensamento Computacional. Essa proposta foi, então, estruturada em 5 etapas, seguindo as 5 metáforas, que permitem que o aluno experiencie a cultura estrangeira de forma gradualmente mais intensiva,
+                    como representado na tabela abaixo.
+                </p>
+                <TabelaMetaforas></TabelaMetaforas>
+                <h5>Aplicação</h5>
             </body>
         </div>
     );
