@@ -42,8 +42,8 @@ const useStyles = makeStyles({
   table: {
     minWidth: 700,
     maxWidth: 750,
-    marginLeft: 150,
-    marginRight: 150,
+    marginLeft: 'auto',
+    marginRight: 'auto',
     marginTop: 35,
     marginBottom: 35
   },
