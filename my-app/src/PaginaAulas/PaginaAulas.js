@@ -53,16 +53,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
-import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     margin: '40px 80px',
-  },
-  heading: {
-    fontSize: theme.typography.pxToRem(15),
-    fontWeight: theme.typography.fontWeightRegular,
   },
 }));
 
@@ -83,7 +78,7 @@ function PaginaAulas() {
         aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography className={classes.heading}>Visão Geral das Aulas</Typography>
+          <h3>Visão Geral das Aulas</h3>
         </AccordionSummary>
         <AccordionDetails>
         <div className="table">
@@ -97,7 +92,7 @@ function PaginaAulas() {
          aria-controls="panel3a-content"
            id="panel3a-header" 
         >
-          <Typography className={classes.heading}>Conteúdo das Aulas </Typography>
+          <h3>Conteúdo das Aulas</h3>
         </AccordionSummary>
         <AccordionDetails>
         <Grid container spacing={2}>

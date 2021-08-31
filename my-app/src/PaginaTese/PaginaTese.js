@@ -1,6 +1,11 @@
 import './PaginaTese.css';
 import TabelaMetaforas from './../TabelaMetaforas/TabelaMetaforas';
 import DissertacaoCompleta from '../Dissertacao/Dissertacao.pdf';
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Accordion from '@material-ui/core/Accordion';
+import AccordionSummary from '@material-ui/core/AccordionSummary';
+import AccordionDetails from '@material-ui/core/AccordionDetails';
 
 function PaginaTese(){
     return(
@@ -9,34 +14,50 @@ function PaginaTese(){
                 <div className="title">Sobre o projeto</div>
             </header>
             <body className="body">
-                <h3>O projeto</h3>
-                <p>O material didático disponível no site faz parte de um projeto da UFMG
-                    que tem como objetivo auxiliar na evolução do ensino do pensamento computacional no ensino básico e fundamental no Brasil.
-                </p>
-                <p>Esse material foi desenvolvido por Oto Braz Assunção, durante seu mestrado. Essa sequência foi inicialmente desenvolvida 
-                    à luz das Metáforas de Perspectivas Computacionais
-                    e testada em salas de aula em uma pesquisa-ação em conjunto com o Centro Pedagógico da UFMG, 
-                    com a motivaçãode foi criar uma sequência didática que permitisse a professores(mesmo aqueles não muito familiarizados com a área)
-                    introduzirem a área de computação aos alunos do Ensino Fundamental II.
-                </p>
-                <h3>Metáforas de Perspectivas Computacionais</h3>
-                <p>
-                    A principal base teórica para esse trabalho são as Metáforas de Perspectivas Computacionais(MPCs).
-                    As MPCs foram criadas por Salgado em 2011 com fundamentação na Engenharia Semiótica, e definidas como como
-                    "uma ferramenta conceitual criada por cujo
-                    propósito é informar e guiar o projeto e avaliação da interação sempre que comunicações
-                    explícitas sobre diversidade cultural fazem parte da intenção de design."
-                </p>
-                <p>
-                    Logo, as MPCs consideram que usuários do sistema são viajantes, e a viagem é a interação que eles têm com o sistema.
-                    Desse ponto, são definidas cinco metáforas: o Viajante Doméstico, o Observador à Distância,
-                    o Estrangeiro em Visita Guiada, o Estrangeiro com Tradutor e o Estrangeiro sem Tradutor.
-                </p>
-                <p>
-                    A partir disso, o designer do sistema pode usar essas metáforas como base para definir
-                    o nível de imersão cultural que ele espera do usuário em sua "viagem". 
-                </p>
-                <p>
+            <Accordion>
+                <AccordionSummary>
+                    <h3>O projeto</h3>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <p>O material didático disponível no site faz parte de um projeto da UFMG
+                        que tem como objetivo auxiliar na evolução do ensino do pensamento computacional no ensino básico e fundamental no Brasil.
+                   <br>
+                   </br>
+                   <br>
+                   </br>
+                        Esse material foi desenvolvido por Oto Braz Assunção, durante seu mestrado. Essa sequência foi inicialmente desenvolvida 
+                        à luz das Metáforas de Perspectivas Computacionais
+                        e testada em salas de aula em uma pesquisa-ação em conjunto com o Centro Pedagógico da UFMG, 
+                        com a motivaçãode foi criar uma sequência didática que permitisse a professores(mesmo aqueles não muito familiarizados com a área)
+                        introduzirem a área de computação aos alunos do Ensino Fundamental II.
+                    </p>
+                </AccordionDetails>
+            </Accordion>
+            <Accordion>
+                <AccordionSummary>
+                    <h3>Metáforas de Perspectivas Culturais</h3>
+                </AccordionSummary>
+                <AccordionDetails>
+                    <p>
+                        A principal base teórica para esse trabalho são as Metáforas de Perspectivas Computacionais(MPCs).
+                        As MPCs foram criadas por Salgado em 2011 com fundamentação na Engenharia Semiótica, e definidas como como
+                        "uma ferramenta conceitual criada por cujo
+                        propósito é informar e guiar o projeto e avaliação da interação sempre que comunicações
+                        explícitas sobre diversidade cultural fazem parte da intenção de design."
+                        <br></br><br></br>
+
+                    
+                        Logo, as MPCs consideram que usuários do sistema são viajantes, e a viagem é a interação que eles têm com o sistema.
+                        Desse ponto, são definidas cinco metáforas: o Viajante Doméstico, o Observador à Distância,
+                        o Estrangeiro em Visita Guiada, o Estrangeiro com Tradutor e o Estrangeiro sem Tradutor.
+                        <br></br><br></br>
+
+                    
+                        A partir disso, o designer do sistema pode usar essas metáforas como base para definir
+                        o nível de imersão cultural que ele espera do usuário em sua "viagem". 
+                        <br></br><br></br>
+
+                    
                     Ao unir a ideia de imersão cultural ao pensamento computacional, é possível entender as metáforas da seguinte maneria:
                     <br></br><br></br>
                     <dl>
@@ -73,25 +94,31 @@ function PaginaTese(){
                 </dl>
 
                 </p>
-
+                </AccordionDetails>
+            </Accordion>
+            <Accordion>
+                <AccordionSummary>
                 <h3>Metodologia</h3>
-                <h5>Geração da Sequência Didática</h5> 
+                </AccordionSummary>
+                <AccordionDetails>
                 <p>
+                <h5>Geração da Sequência Didática</h5> 
                     Como já mencionado, a sequência didática foi criada com base nas MPCs. Isso foi feito com o objetivo de introduzir gradativamente a computação a alunos do Ensino Fundamental II
                     e fomentar o Pensamento Computacional. Essa proposta foi, então, estruturada em 5 etapas, seguindo as 5 metáforas, que permitem que o aluno experiencie a cultura estrangeira de forma gradualmente mais intensiva,
                     como representado na tabela abaixo.
-                </p>
+                <br></br>
                 <TabelaMetaforas></TabelaMetaforas>
-                <p>
+                <br></br>                
                     Para definir quais seriam as atividades realizadas em cada etapa da proposta, foi realizada uma classificação de recursos didáticos utilizados no Brasil para o ensino
                     da computação e do PC a alunos do Ensino Fundamental, e essa classificação foi tomada como base para seleção dos recursos didáticos utilizados em cada etapa da sequência didática. 
-                </p>
+                <br></br>
+                <br></br>
                 <h5>Aplicação</h5>
-                <p>
+                <br></br>
                     Para validar a sequência didática gerada no projeto, foi realizada uma Pesquisa-Ação, constituída de três estudos realizados com alunos do 6º ano do Ensino Fundamental II.
                     Os dois primeiros estudos foram para o ensino de Pensamento Computacional I, realizados nos semestres 2019/1 e 2019/2, com grupos diferentes de alunos, enquanto o terceiro estudo,
                     para o ensino de Pensamento Computacional II, foi realizado em 2019/2, com alunos do primeiro grupo que decidiram seguir com o estudo de Pensamento Computacional.
-                </p>
+                <br></br>
                 <dl>
                     <dt>Estudo I</dt>
                     <dd className="list-item">
@@ -121,8 +148,15 @@ function PaginaTese(){
                        </p>
                     </dd>
                 </dl>
+                </p>
+                </AccordionDetails>
+            </Accordion>
 
+            <Accordion>
+                <AccordionSummary>
                 <h3>Consolidação da sequência</h3>
+                </AccordionSummary>
+                <AccordionDetails>
                 <p>
                     Após a conclusão dos três estudos, foi criado o <i>Curso de Introdução à Computação e ao Pensamento Computacional</i>, que é constituído majoritariamente de aulas
                     dos dois primeiros estudos, mais alguns conteúdos do estudo III, com algumas partes revisadas após a avaliação prática da sequência didática inicial.
@@ -130,8 +164,16 @@ function PaginaTese(){
                     e sobre os recursos didáticos que são utilizados em cada aula.
                 </p> 
 
+                </AccordionDetails>
+            </Accordion>
+            <Accordion>
+                <AccordionSummary>
                 <h3>A dissertação</h3>
+                </AccordionSummary>
+                <AccordionDetails>
                 <p>Para ainda mais detalhes sobre o projeto, a criação da sequência e os estudos realizados, aqui está a <a href={DissertacaoCompleta} download='Dissertacao_Completa.pdf'>dissertação completa de Oto Braz Assunção.</a></p>
+                </AccordionDetails>
+            </Accordion>    
             </body>
         </div>
     );
