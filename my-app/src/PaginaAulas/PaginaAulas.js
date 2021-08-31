@@ -76,7 +76,7 @@ function PaginaAulas() {
         <AccordionSummary
         expandIcon={<ExpandMoreIcon />}
         aria-controls="panel3a-content"
-          id="panel3a-header"
+        id="panel3a-header"
         >
           <h3>Visão Geral das Aulas</h3>
         </AccordionSummary>
@@ -90,7 +90,7 @@ function PaginaAulas() {
         <AccordionSummary
          expandIcon={<ExpandMoreIcon />}
          aria-controls="panel3a-content"
-           id="panel3a-header" 
+         id="panel3a-header" 
         >
           <h3>Conteúdo das Aulas</h3>
         </AccordionSummary>
