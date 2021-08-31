@@ -46,16 +46,55 @@ import pdf4Aula13 from '../conteudo-aulas/aula13/Aula 13 - Roteiro.docx'
 import pdf1Aula14 from '../conteudo-aulas/aula14/Aula 14 - Árvore de Decisão.pdf'
 import pdf2Aula14 from '../conteudo-aulas/aula14/Aula 14 - Apresentação.pdf'
 import pdf2Aula15 from '../conteudo-aulas/aula15/Aula 15 - Apresentação.pdf'
+import TabelaAulas from './../TabelaAulas/TabelaAulas';
+
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Accordion from '@material-ui/core/Accordion';
+import AccordionSummary from '@material-ui/core/AccordionSummary';
+import AccordionDetails from '@material-ui/core/AccordionDetails';
+import Typography from '@material-ui/core/Typography';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    margin: '40px 80px',
+  },
+  heading: {
+    fontSize: theme.typography.pxToRem(15),
+    fontWeight: theme.typography.fontWeightRegular,
+  },
+}));
 
 
 function PaginaAulas() {
+  const classes = useStyles();
+
   return (
     <div >
       <header>
-        <div className="title-aulas"> Sequência Didática de Pensamento Computacional <br></br> para Ensino Fundamental II </div>
+        <div className="title-aulas"> Sequência Didática de Pensamento Computacional <br></br> para anos finais do Ensino Fundamental II </div>
       </header>
       <body>
-      <Grid container spacing={2}>
+      <div className={classes.root}>
+      <Accordion>
+        <AccordionSummary
+        >
+          <Typography className={classes.heading}>Visão Geral das Aulas</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <div className="table">
+           <TabelaAulas></TabelaAulas>
+        </div>   
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          
+        >
+          <Typography className={classes.heading}>Conteúdo das Aulas </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+        <Grid container spacing={2}>
         <Grid item xs={12}>
           <Grid container justifyContent="center" spacing={2}>
               <Grid item>
@@ -226,6 +265,14 @@ function PaginaAulas() {
           </Grid>
         </Grid>
       </Grid>
+        </AccordionDetails>
+      </Accordion>
+      
+    </div>
+
+
+
+      
       <p>Todo o material pode ser encontrado no link: <a target="_blank" href="https://drive.google.com/drive/folders/1uAqN4TJovNb9IOHYhSuIALxh-yFWuavQ">aqui</a></p>
       </body>
     </div>

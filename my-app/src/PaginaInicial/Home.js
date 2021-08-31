@@ -1,14 +1,12 @@
 import './Home.css';
-import TabelaAulas from './../TabelaAulas/TabelaAulas';
 
 function Home() {
     return(
         <div>
             <header>
-                <h1 className="title">Nome do projeto</h1>
+                <h1 className="title">Pensamento Computacional nos Anos Finais do Ensino Fundamental baseado nas Metáforas de Perspectivas Culturais</h1>
             </header>
             <body className="body">
-                <h3>Sequência didática de Pensamento Computacional para Ensino Fundamental II</h3>
                 <p>A sequência didática foi elaborada por <a href='/sobre-o-projeto'>Oto Braz de Assunção em sua Tese de Mestrado </a>  
                 e fundamentada nas Metáforas de Perspectivas Culturais (MPCs). </p>
                 <i className="quote">As metáforas indicam que a interação com o sistema computacional pode ser
@@ -22,11 +20,7 @@ function Home() {
                     associadas ao Viajante Doméstico e, gradativamente, novos conceitos são apresentados e novas atividades são 
                     realizadas, de forma que o aluno percorra o continuum das metáforas até chegar à metáfora Estrangeiro 
                     sem Tradutor.</p>
-                 
-                <h4 >Visão Geral das Aulas</h4>
-                <div className="table">
-                    <TabelaAulas></TabelaAulas>
-                </div>                
+              
             </body>
         </div>
     );
