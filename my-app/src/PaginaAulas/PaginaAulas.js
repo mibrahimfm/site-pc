@@ -54,6 +54,7 @@ import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -78,6 +79,9 @@ function PaginaAulas() {
       <div className={classes.root}>
       <Accordion>
         <AccordionSummary
+        expandIcon={<ExpandMoreIcon />}
+        aria-controls="panel3a-content"
+          id="panel3a-header"
         >
           <Typography className={classes.heading}>Visão Geral das Aulas</Typography>
         </AccordionSummary>
@@ -89,7 +93,9 @@ function PaginaAulas() {
       </Accordion>
       <Accordion>
         <AccordionSummary
-          
+         expandIcon={<ExpandMoreIcon />}
+         aria-controls="panel3a-content"
+           id="panel3a-header" 
         >
           <Typography className={classes.heading}>Conteúdo das Aulas </Typography>
         </AccordionSummary>
