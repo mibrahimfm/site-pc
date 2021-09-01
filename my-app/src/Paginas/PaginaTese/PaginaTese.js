@@ -1,8 +1,7 @@
 import './PaginaTese.css';
-import TabelaMetaforas from './../TabelaMetaforas/TabelaMetaforas';
-import DissertacaoCompleta from '../Dissertacao/Dissertacao.pdf';
+import TabelaMetaforas from './TabelaMetaforas/TabelaMetaforas';
+import DissertacaoCompleta from '../../Arquivos/Dissertacao/Dissertacao.pdf';
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';

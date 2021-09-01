@@ -2,8 +2,9 @@ import { Router, Switch, Route } from "react-router-dom";
 import Navigation from './Navigation/Navigation';
 import PaginaAulas from './Paginas/PaginaAulas/PaginaAulas';
 import Home from './Paginas/PaginaInicial/Home';
-import PaginaTese from './PaginaTese/PaginaTese';
+import PaginaTese from './Paginas/PaginaTese/PaginaTese';
 import history from './History';
+import RoteiroAula1 from './Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula1';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path='/sobre-o-projeto' component={PaginaTese}/>                
         <Route path='/aulas' component={PaginaAulas}/>
         <Route path='/' component={Home}/>          
-        <Route path='/aula-1' component={Home}/>              
+        <Route path='/aula-1' component={RoteiroAula1}/>              
       </Switch>   
 
     </Router> 
