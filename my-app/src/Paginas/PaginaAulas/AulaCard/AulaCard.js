@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 
 import React, { Component } from 'react';
-import SimpleModal from '../../../Modal/Modal.js';
+import SimpleModal from '../Modal/Modal.js';
 
 export default class AulaCard extends Component {
    render() {

@@ -1,7 +1,7 @@
 import './RoteiroAula1.css';
-import pdf1Aula1 from '../../../Arquivos/aula1/Exercícios - Iniciante.pdf'
-import pdf2Aula1 from '../../../Arquivos/aula1/Aula 1 - Apresentação.pptx'
-import pdf3Aula1 from '../../../Arquivos/aula1/Desafios.docx'
+import pdf1Aula1 from '../../../../Arquivos/aula1/Exercícios - Iniciante.pdf'
+import pdf2Aula1 from '../../../../Arquivos/aula1/Aula 1 - Apresentação.pptx'
+import pdf3Aula1 from '../../../../Arquivos/aula1/Desafios.docx'
 
 function RoteiroAula1() {
     return(

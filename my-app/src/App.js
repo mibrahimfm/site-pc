@@ -2,9 +2,9 @@ import { Router, Switch, Route } from "react-router-dom";
 import Navigation from './Navigation/Navigation';
 import PaginaAulas from './Paginas/PaginaAulas/PaginaAulas';
 import Home from './Paginas/PaginaInicial/Home';
-import PaginaTese from './Paginas/PaginaTese/PaginaTese';
+import PaginaSobre from './Paginas/PaginaSobre/PaginaSobre';
 import history from './History';
-import RoteiroAula1 from './Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula1';
+import RoteiroAula1 from './Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula1/RoteiroAula1';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
     <Navigation/>   
     <Router history={history}>
       <Switch>
-        <Route path='/sobre-o-projeto' component={PaginaTese}/>                
+        <Route path='/sobre-o-projeto' component={PaginaSobre}/>                
         <Route path='/aulas' component={PaginaAulas}/>
         <Route path='/aula-1' component={RoteiroAula1}/>              
         <Route path='/' component={Home}/>          
