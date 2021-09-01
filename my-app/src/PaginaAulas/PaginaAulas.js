@@ -63,6 +63,25 @@ const useStyles = makeStyles((theme) => ({
 
 function PaginaAulas() {
   const classes = useStyles();
+  const tabela_objetivos_aula1 = [{
+    objetivos: [
+      "Introduzir indiretamente o sequenciamento de ações.",
+      "Introduzir indiretamente o registro de soluções.",
+      "Introduzir indiretamente o teste de soluções."
+    ],
+    atividades: ["Estacionamento Algorítmico"],
+    recursos:[
+      "Um conjunto do Estacionamento Algorítmico (tabuleiro e veículos) para cada aluno",
+      "Uma Folha de Desafios para cada aluno",
+      "Uma Folha de Registro de Soluções para cada aluno",
+      "Folhas de rascunho para cada aluno",
+      "Materiais de escrever básicos (lápis e borracha)",
+      "Computador para o professor",
+      "Projetor de vídeo",
+      "Aula 1 - Apresentação"
+    ]
+  }]
+
 
   return (
     <div >
@@ -95,165 +114,165 @@ function PaginaAulas() {
               <Grid item>
                 <AulaCard
                   image={card1}
-                  title="Aula 1"
+                  title="1"
                   subtitle="Raciocínio Lógico"
                   content="Resolver desafios de lógica e registrar suas soluções."
-                  link1={pdf1Aula1}
-                  link2={pdf2Aula1}
-                  link3={pdf3Aula1}
+                  exercicios={pdf1Aula1}
+                  apresentacao={pdf2Aula1}
+                  desafio={pdf3Aula1}
                   link='https://drive.google.com/drive/folders/1FmeW0elAy9IHoO7TbGhynKOQeGQ5IJ0N'
-                  descricao_recursos="Resolução dos desafios do nível iniciante do Estacionamennto Algorítmico. Além da resolução, os alunos devem fazer o registro dos passos para resolver os desafios e testá-los."
+                  tabela_objetivos={tabela_objetivos_aula1}
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card2}
-                  title="Aula 2"
+                  title="2"
                   subtitle="Introdução ao Sequenciamento de Ações"
                   content="Conceito de algoritmos. Não requer computadores. Material pode ser impresso."
-                  link1={pdf1Aula2}
-                  link2={pdf2Aula2}
-                  link3={pdf3Aula2}
+                  exercicios={pdf1Aula2}
+                  apresentacao={pdf2Aula2}
+                  desafio={pdf3Aula2}
                   link="https://drive.google.com/drive/folders/1D_BfjZAmsjnwlQbl0DOnoGBDGl--d5jJs"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card3}
-                  title="Aula 3"
+                  title="3"
                   subtitle="Introdução aos Laços de Repetição"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula3}
+                  apresentacao={pdf2Aula3}
                   link="https://drive.google.com/drive/folders/17-V1mCREFhAi_u89h74vRpGdiKY_aUY2"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card4}
-                  title="Aula 4"
+                  title="4"
                   subtitle="Introdução aos Laços de Repetição"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula4}
+                  apresentacao={pdf2Aula4}
                   link="https://drive.google.com/drive/folders/1tehgg3CzMwyUPrVmJaK4LyrOpAg04iO_"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card5}
-                  title="Aula 5"
+                  title="5"
                   subtitle="Introdução ao Plano Cartesiano"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula5}
+                  apresentacao={pdf2Aula5}
                   link="https://drive.google.com/drive/folders/1ptT4DZGqbU6EtUoAwRWT5SycCY4TeA30"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card6}
-                  title="Aula 6"
-                  subtitle="Anime o seu nome"
+                  title="6"
+                  subtitle=" o seu nome"
                   content="Exercícios em site interativo."
-                  link1={pdf1Aula6}
-                  link2={pdf2Aula6}
-                  link4={pdf4Aula6}
+                  exercicios={pdf1Aula6}
+                  apresentacao={pdf2Aula6}
+                  roteiro={pdf4Aula6}
                   link="https://drive.google.com/drive/folders/14ecl_xTY0SC5HJXjFIS_YlOYBm3d859C"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card7}
-                  title="Aula 7"
+                  title="7"
                   subtitle="Blocos de eventos"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula7}
-                  link4={pdf4Aula7}
+                  apresentacao={pdf2Aula7}
+                  roteiro={pdf4Aula7}
                   link="https://drive.google.com/drive/folders/1g20T0F1KPGPtlWiMs6mEhcD9alCoYOp-"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card8}
-                  title="Aula 8"
+                  title="8"
                   subtitle="Condicionais - Parte 1"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula8}
-                  link4={pdf4Aula8}
+                  apresentacao={pdf2Aula8}
+                  roteiro={pdf4Aula8}
                   link="https://drive.google.com/drive/folders/1kqqL-PkA3GsB85Nrmnk1bwlFsHitiLsz"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card9}
-                  title="Aula 9"
+                  title="9"
                   subtitle="Condicionais - Parte 2"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula9}
-                  link4={pdf4Aula9}
+                  apresentacao={pdf2Aula9}
+                  roteiro={pdf4Aula9}
                   link="https://drive.google.com/drive/folders/1TY5M_G37Yd95IDxuIcccAMuFs3qsXOWU"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card10}
-                  title="Aula 10"
+                  title="10"
                   subtitle="Introdução às Variáveis"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula10}
-                  link4={pdf4Aula10}
+                  apresentacao={pdf2Aula10}
+                  roteiro={pdf4Aula10}
                   link="https://drive.google.com/drive/folders/14YAB41hJb9I7DHXBWnQs8Ra2co34_t3N"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card11}
-                  title="Aula 11"
+                  title="11"
                   subtitle="Jogo de Perguntas e Respostas - Parte 1"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula11}
-                  link4={pdf4Aula11}
+                  apresentacao={pdf2Aula11}
+                  roteiro={pdf4Aula11}
                   link="https://drive.google.com/drive/folders/1fhFHzjoo3euIzRUsAG1Ouzy_Kh7nlL1k"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card12}
-                  title="Aula 12"
+                  title="12"
                   subtitle="Jogo de Perguntas e Respostas - Parte 2"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula12}
-                  link4={pdf4Aula12}
+                  apresentacao={pdf2Aula12}
+                  roteiro={pdf4Aula12}
                   link="https://drive.google.com/drive/folders/1yI4BUQwVpe4hVGOMkHIHe7b_sijsRsiA"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card13}
-                  title="Aula 13"
+                  title="13"
                   subtitle="Jogo de Desviar"
                   content="Exercícios em site interativo."
-                  link2={pdf2Aula13}
-                  link4={pdf4Aula13}
+                  apresentacao={pdf2Aula13}
+                  roteiro={pdf4Aula13}
                   link="https://drive.google.com/drive/folders/18bVsTSiOU18CkxqHsuM9-Nad5ls5RkE6"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card14}
-                  title="Aula 14"
+                  title="14"
                   subtitle="Árvores de Decisão - Parte 1"
                   content="Não requer computadores. Material pode ser impresso."                 
-                  link1={pdf1Aula14}
-                  link2={pdf2Aula14}
+                  exercicios={pdf1Aula14}
+                  apresentacao={pdf2Aula14}
                   link="https://drive.google.com/drive/folders/1R2l9sz35e5W2tgnfsrfhSAt9gjh_zpGM"
                 />
               </Grid>
               <Grid item>
                 <AulaCard
                   image={card15}
-                  title="Aula 15"
+                  title="15"
                   subtitle="Árvores de Decisão - Parte 2"
                   content="Não requer computadores. Material pode ser impresso."
-                  link2={pdf2Aula15}
+                  apresentacao={pdf2Aula15}
                   link="https://drive.google.com/drive/folders/14gMCa7DZ-X_ek6HuN5v_3AsUasdf41QL"
                 />
               </Grid>
@@ -264,10 +283,6 @@ function PaginaAulas() {
       </Accordion>
       
     </div>
-
-
-
-      
       <p>Todo o material pode ser encontrado no link: <a target="_blank" href="https://drive.google.com/drive/folders/1uAqN4TJovNb9IOHYhSuIALxh-yFWuavQ">aqui</a></p>
       </body>
     </div>

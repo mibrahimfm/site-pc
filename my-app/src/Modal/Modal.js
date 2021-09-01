@@ -1,7 +1,14 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Button from 'react-bootstrap/Button';
+import { withStyles, makeStyles } from '@material-ui/core/styles';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import TableCell from '@material-ui/core/TableCell';
+import history from './../History';
 
 function getModalStyle() {
   const top = 50;
@@ -10,24 +17,52 @@ function getModalStyle() {
     top: `${top}%`,
     left: `${left}%`,
     transform: `translate(-${top}%, -${left}%)`,
-    width: `700px`
+    width: `800px`
   };
 }
+
+const StyledTableRow = withStyles((theme) => ({
+  root: {
+    '&:nth-of-type(odd)': {
+      backgroundColor: theme.palette.action.hover,
+    },
+  },
+}))(TableRow);
+
+const StyledTableCell = withStyles((theme) => ({
+  head: {
+    backgroundColor: theme.palette.common.black,
+    color: theme.palette.common.white,
+  },
+  body: {
+    fontSize: 14,
+  },
+}))(TableCell);
 
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
-    width: 400,
+    width: '100%',
     backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
   },
+  table: {
+    width: '100%',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    marginTop: 35,
+    marginBottom: 35
+  },
+  paragraph:{
+    padding: 0,
+    margin: 0,
+  }
 }));
 
 export default function SimpleModal(props) {
   const classes = useStyles();
-  // getModalStyle is not a pure function, we roll the style only on the first render
   const [modalStyle] = React.useState(getModalStyle);
   const [open, setOpen] = React.useState(false);
 
@@ -38,66 +73,97 @@ export default function SimpleModal(props) {
   const handleClose = () => {
     setOpen(false);
   };
-  let link1, link2, link3, link4;
-  link1 = "";
-  link2 = "";
-  link3 = "";
-  link4 = "";
-  if(props.link1){
-    link1 =  
+  let exercicios, apresentacao, desafio, roteiro;
+  exercicios = "";
+  apresentacao = "";
+  desafio = "";
+  roteiro = "";
+  if(props.exercicios){
+    exercicios =  
     <ul>  
-      <a id="simple-modal-description" href={props.link1} download>
+      <a id="simple-modal-description" href={props.exercicios} download>
           Material {props.title}
         </a>
-      <br></br>
     </ul>
   }
-  if(props.link2){
-    link2 =  
+  if(props.apresentacao){
+    apresentacao =  
     <ul>  
-      <a id="simple-modal-description" href={props.link2} download>
+      <a id="simple-modal-description" href={props.apresentacao} download>
       Apresentação {props.title}
         </a>
-      <br></br>
     </ul>
   }  
-  if(props.link3){
-    link3 =  
+  if(props.desafio){
+    desafio =  
     <ul>  
-      <a id="simple-modal-description" href={props.link3} download>
+      <a id="simple-modal-description" href={props.desafio} download>
         Desafio {props.title}
       </a>
-      <br></br>
     </ul>
   }
-  if(props.link4){
-    link4 =  
+  if(props.roteiro){
+    roteiro =  
     <ul>  
-      <a id="simple-modal-description" href={props.link4} download>
+      <a id="simple-modal-description" href={props.roteiro} download>
         Roteiro {props.title}
       </a>
-      <br></br>
     </ul>
   }
 
   const body = (
     <div style={modalStyle} className={classes.paper}>
-      <h2 id="simple-modal-title">{props.title}</h2>
-      <h4 id="simple-modal-subtitle">{props.subtitle}</h4>
-      <div>
-        Recursos e Atividades:
-        {props.recursos}
-      </div>
-      <br></br>
-      {link1}
-      {link2}
-      {link3}
-      {link4}
+      <h5 id="simple-modal-title">Aula {props.title} - {props.subtitle} </h5>
+    {props.tabela_objetivos ? 
+      <TableContainer>
+      <Table className={classes.table} aria-label="customized table">
+        <TableHead>
+          <TableRow>
+            <StyledTableCell align="left">Objetivos</StyledTableCell>
+            <StyledTableCell align="left">Atividades</StyledTableCell>
+            <StyledTableCell align="left">Recursos e Materiais</StyledTableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {props.tabela_objetivos.map((row) => (
+            <StyledTableRow >
+              <StyledTableCell component="th" scope="row">
+              {row.objetivos.map((obj)=>(
+                <li className={classes.paragraph}>{obj}</li>
+                ))}
+              </StyledTableCell>
+              <StyledTableCell component="th" scope="row">
+              {row.atividades.map((ativ)=>(
+                <li className={classes.paragraph}>{ativ}</li>
+                ))}
+              </StyledTableCell>
+              <StyledTableCell component="th" scope="row">
+              {row.recursos.map((rec)=>(
+                <li className={classes.paragraph}>{rec}</li>
+                ))}
+              </StyledTableCell>
+            </StyledTableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer> :
+    <div></div>
+    }
+      <Button
+        variant="dark" onClick={() => history.push(`/aula-${props.title}`)}>
+        Ver Mais
+      </Button>
+{/*       
+      {exercicios}
+      {apresentacao}
+      {desafio}
+      {roteiro}
       <ul>
         <a id="simple-modal-description" href={props.link} target="_blank">
           Drive com todos os materiais dessa aula
         </a>
-      </ul>
+      </ul> */}
+
     </div>
   );
 
