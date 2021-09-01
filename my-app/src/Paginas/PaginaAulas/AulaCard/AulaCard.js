@@ -30,7 +30,7 @@ export default class AulaCard extends Component {
         <Card style={style.container}>
         <Card.Body>
         <Card.Header style={style.header}>
-          <Card.Title>{this.props.title}</Card.Title>          
+          <Card.Title>Aula {this.props.title}</Card.Title>          
           <Card.Subtitle>{this.props.subtitle}</Card.Subtitle>
         </Card.Header>
           <br></br>

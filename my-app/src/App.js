@@ -14,8 +14,8 @@ function App() {
       <Switch>
         <Route path='/sobre-o-projeto' component={PaginaTese}/>                
         <Route path='/aulas' component={PaginaAulas}/>
-        <Route path='/' component={Home}/>          
         <Route path='/aula-1' component={RoteiroAula1}/>              
+        <Route path='/' component={Home}/>          
       </Switch>   
 
     </Router> 

@@ -17,9 +17,7 @@ import card15 from '../../images/aula_15.png'
 import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
-import pdf1Aula1 from '../../Arquivos/aula1/Exercícios - Iniciante.pdf'
-import pdf2Aula1 from '../../Arquivos/aula1/Aula 1 - Apresentação.pptx'
-import pdf3Aula1 from '../../Arquivos/aula1/Desafios.docx'
+
 import pdf1Aula2 from '../../Arquivos/aula2/Criando Algoritmos.pdf'
 import pdf2Aula2 from '../../Arquivos/aula2/Aula 2 - Apresentação.pdf'
 import pdf3Aula2 from '../../Arquivos/aula2/Criando Figuras.pdf'
@@ -123,9 +121,7 @@ function PaginaAulas() {
                   title="1"
                   subtitle="Raciocínio Lógico"
                   content="Resolver desafios de lógica e registrar suas soluções."
-                  exercicios={pdf1Aula1}
-                  apresentacao={pdf2Aula1}
-                  desafio={pdf3Aula1}
+                  
                   link='https://drive.google.com/drive/folders/1FmeW0elAy9IHoO7TbGhynKOQeGQ5IJ0N'
                   tabela_objetivos={tabela_objetivos_aula1}
                 />

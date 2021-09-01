@@ -150,7 +150,7 @@ export default function SimpleModal(props) {
     <div></div>
     }
       <Button
-        variant="dark" onClick={() => history.push(`/aula-${props.title}`)}>
+        variant="dark" onClick={() => history.push(`/aula-1`)}>
         Ver Mais
       </Button>
 {/*       
