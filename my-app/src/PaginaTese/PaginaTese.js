@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 function PaginaTese(){
     return(
@@ -15,7 +16,11 @@ function PaginaTese(){
             </header>
             <body className="body">
             <Accordion>
-                <AccordionSummary>
+                <AccordionSummary
+                 expandIcon={<ExpandMoreIcon />}
+                 aria-controls="panel3a-content"
+                 id="panel3a-header"
+                >
                     <h3>O projeto</h3>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -34,7 +39,10 @@ function PaginaTese(){
                 </AccordionDetails>
             </Accordion>
             <Accordion>
-                <AccordionSummary>
+                <AccordionSummary
+                 expandIcon={<ExpandMoreIcon />}
+                 aria-controls="panel3a-content"
+                 id="panel3a-header">
                     <h3>Metáforas de Perspectivas Culturais</h3>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -97,7 +105,10 @@ function PaginaTese(){
                 </AccordionDetails>
             </Accordion>
             <Accordion>
-                <AccordionSummary>
+                <AccordionSummary
+                 expandIcon={<ExpandMoreIcon />}
+                 aria-controls="panel3a-content"
+                 id="panel3a-header">
                 <h3>Metodologia</h3>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -153,7 +164,10 @@ function PaginaTese(){
             </Accordion>
 
             <Accordion>
-                <AccordionSummary>
+                <AccordionSummary
+                 expandIcon={<ExpandMoreIcon />}
+                 aria-controls="panel3a-content"
+                 id="panel3a-header">
                 <h3>Consolidação da sequência</h3>
                 </AccordionSummary>
                 <AccordionDetails>
@@ -167,7 +181,10 @@ function PaginaTese(){
                 </AccordionDetails>
             </Accordion>
             <Accordion>
-                <AccordionSummary>
+                <AccordionSummary
+                 expandIcon={<ExpandMoreIcon />}
+                 aria-controls="panel3a-content"
+                 id="panel3a-header">
                 <h3>A dissertação</h3>
                 </AccordionSummary>
                 <AccordionDetails>

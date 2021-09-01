@@ -53,6 +53,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -92,6 +93,9 @@ function PaginaAulas() {
       <div className={classes.root}>
       <Accordion>
         <AccordionSummary
+        expandIcon={<ExpandMoreIcon />}
+        aria-controls="panel3a-content"
+        id="panel3a-header"
         >
           <h3>Visão Geral das Aulas</h3>
         </AccordionSummary>
@@ -103,7 +107,9 @@ function PaginaAulas() {
       </Accordion>
       <Accordion>
         <AccordionSummary
-          
+         expandIcon={<ExpandMoreIcon />}
+         aria-controls="panel3a-content"
+         id="panel3a-header" 
         >
           <h3>Conteúdo das Aulas</h3>
         </AccordionSummary>
