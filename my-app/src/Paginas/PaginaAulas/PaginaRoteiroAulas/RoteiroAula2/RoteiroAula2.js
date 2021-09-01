@@ -5,7 +5,7 @@ function RoteiroAula2() {
     return(
         <div>
             <header>
-                <h1 className="title">Aula 1 - Exercitando o Raciocínio Lógico</h1>
+                <h1 className="title">Aula 2 - Introdução ao Sequenciamento de Ações</h1>
             </header>
             <body className="body">
                 <TabelaAula2></TabelaAula2>

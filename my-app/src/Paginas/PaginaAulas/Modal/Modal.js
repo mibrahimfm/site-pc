@@ -9,6 +9,9 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import history from '../../../History';
+import TabelaAula1 from '../PaginaRoteiroAulas/RoteiroAula1/TabelaAula1';
+import TabelaAula2 from '../PaginaRoteiroAulas/RoteiroAula2/TabelaAula2';
+import TabelaAula3 from '../PaginaRoteiroAulas/RoteiroAula3/TabelaAula3';
 
 function getModalStyle() {
   const top = 50;
@@ -114,43 +117,13 @@ export default function SimpleModal(props) {
   const body = (
     <div style={modalStyle} className={classes.paper}>
       <h5 id="simple-modal-title">Aula {props.title} - {props.subtitle} </h5>
-    {props.tabela_objetivos ? 
-      <TableContainer>
-      <Table className={classes.table} aria-label="customized table">
-        <TableHead>
-          <TableRow>
-            <StyledTableCell align="left">Objetivos</StyledTableCell>
-            <StyledTableCell align="left">Atividades</StyledTableCell>
-            <StyledTableCell align="left">Recursos e Materiais</StyledTableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {props.tabela_objetivos.map((row) => (
-            <StyledTableRow >
-              <StyledTableCell component="th" scope="row">
-              {row.objetivos.map((obj)=>(
-                <li className={classes.paragraph}>{obj}</li>
-                ))}
-              </StyledTableCell>
-              <StyledTableCell component="th" scope="row">
-              {row.atividades.map((ativ)=>(
-                <li className={classes.paragraph}>{ativ}</li>
-                ))}
-              </StyledTableCell>
-              <StyledTableCell component="th" scope="row">
-              {row.recursos.map((rec)=>(
-                <li className={classes.paragraph}>{rec}</li>
-                ))}
-              </StyledTableCell>
-            </StyledTableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer> :
-    <div></div>
-    }
+      {props.title == '1' ? <TabelaAula1></TabelaAula1> : <div></div>}
+      {props.title == '2' ? <TabelaAula2></TabelaAula2> : <div></div>}
+      {props.title == '3' ? <TabelaAula3></TabelaAula3> : <div></div>}
+
+
       <Button
-        variant="dark" onClick={() => history.push(`/aula-1`)}>
+        variant="dark" onClick={() => history.push(`/aula-${props.title}`)}>
         Ver Mais
       </Button>
 {/*       

@@ -17,7 +17,6 @@ import card15 from '../../images/aula_15.png'
 import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
-import pdf2Aula3 from '../../Arquivos/aula3/Aula 3 - Apresentação.pptx'
 import pdf2Aula4 from '../../Arquivos/aula4/Aula 4 - Apresentação.pptx'
 import pdf2Aula5 from '../../Arquivos/aula5/Aula 5 - Apresentação.pptx'
 import pdf1Aula6 from '../../Arquivos/aula6/Cartões de Votação.docx'
@@ -58,42 +57,7 @@ const useStyles = makeStyles((theme) => ({
 
 function PaginaAulas() {
   const classes = useStyles();
-  const tabela_objetivos_aula1 = [{
-    objetivos: [
-      "Introduzir indiretamente o sequenciamento de ações.",
-      "Introduzir indiretamente o registro de soluções.",
-      "Introduzir indiretamente o teste de soluções."
-    ],
-    atividades: ["Estacionamento Algorítmico"],
-    recursos:[
-      "Um conjunto do Estacionamento Algorítmico (tabuleiro e veículos) para cada aluno",
-      "Uma Folha de Desafios para cada aluno",
-      "Uma Folha de Registro de Soluções para cada aluno",
-      "Folhas de rascunho para cada aluno",
-      "Materiais de escrever básicos (lápis e borracha)",
-      "Computador para o professor",
-      "Projetor de vídeo",
-      "Aula 1 - Apresentação"
-    ]
-  }]
-  const tabela_objetivos_aula2 = [{
-    objetivos: [
-      "Compreender o conceito de algoritmos.",
-      "Entender a importância da definição precisa de instruções.",
-      "Praticar a criação de algoritmos simples."
-    ],
-    atividades: ["Programação em Papel, LightBot*, KidloCoding"],
-    recursos:[
-      "Uma folha do Criando Algoritmos para cada aluno",
-      "Uma folha do Criando Figuras para cada aluno",
-      "Uma Folha de Registro de Soluções para cada aluno",
-      "Materiais de escrever básicos (lápis e borracha)",
-      "Computador para o professor",
-      "Projetor de vídeo",
-      "Aula 2 - Apresentação"
-    ]
-  }]
-
+  
   return (
     <div >
       <header>
@@ -133,7 +97,6 @@ function PaginaAulas() {
                   title="1"
                   subtitle="Raciocínio Lógico"
                   content="Resolver desafios de lógica e registrar suas soluções."
-                  tabela_objetivos={tabela_objetivos_aula1}
                 />
               </Grid>
               <Grid item>
@@ -142,7 +105,6 @@ function PaginaAulas() {
                   title="2"
                   subtitle="Introdução ao Sequenciamento de Ações"
                   content="Conceito de algoritmos. Não requer computadores. Material pode ser impresso."
-                  tabela_objetivos={tabela_objetivos_aula2}
                 />
               </Grid>
               <Grid item>
@@ -151,8 +113,6 @@ function PaginaAulas() {
                   title="3"
                   subtitle="Introdução aos Laços de Repetição"
                   content="Exercícios em site interativo."
-                  apresentacao={pdf2Aula3}
-                  link="https://drive.google.com/drive/folders/17-V1mCREFhAi_u89h74vRpGdiKY_aUY2"
                 />
               </Grid>
               <Grid item>

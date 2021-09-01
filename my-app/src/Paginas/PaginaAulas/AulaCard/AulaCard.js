@@ -47,7 +47,6 @@ export default class AulaCard extends Component {
               apresentacao={this.props.apresentacao}
               desafio={this.props.desafio}
               roteiro={this.props.roteiro}
-              tabela_objetivos={this.props.tabela_objetivos}
             >
             </SimpleModal>
         </Card.Footer>        
