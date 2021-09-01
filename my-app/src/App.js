@@ -1,7 +1,7 @@
 import { Router, Switch, Route } from "react-router-dom";
 import Navigation from './Navigation/Navigation';
-import PaginaAulas from './PaginaAulas/PaginaAulas';
-import Home from './PaginaInicial/Home';
+import PaginaAulas from './Paginas/PaginaAulas/PaginaAulas';
+import Home from './Paginas/PaginaInicial/Home';
 import PaginaTese from './PaginaTese/PaginaTese';
 import history from './History';
 
