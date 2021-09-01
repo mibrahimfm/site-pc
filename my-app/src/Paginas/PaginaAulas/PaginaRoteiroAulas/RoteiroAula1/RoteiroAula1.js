@@ -1,7 +1,5 @@
 import './RoteiroAula1.css';
-import pdf1Aula1 from '../../../../Arquivos/aula1/Exercícios - Iniciante.pdf'
-import pdf2Aula1 from '../../../../Arquivos/aula1/Aula 1 - Apresentação.pptx'
-import pdf3Aula1 from '../../../../Arquivos/aula1/Desafios.docx'
+import TabelaAula1 from './TabelaAula1';
 
 function RoteiroAula1() {
     return(
@@ -10,6 +8,8 @@ function RoteiroAula1() {
                 <h1 className="title">Aula 1 - Exercitando o Raciocínio Lógico</h1>
             </header>
             <body className="body">
+                <TabelaAula1></TabelaAula1>
+
                 <p>Na primeira aula do GTD os alunos praticarão o raciocínio lógico através de um jogo de
             lógica desplugado chamado Estacionamento Algorítmico, que é um jogo simples de ser
             explicado e entendido. No jogo, os alunos devem movimentar os veículos para permitir
@@ -64,23 +64,6 @@ function RoteiroAula1() {
             eles devem testar as soluções que eles receberam seguindo o passo a passo registrado
             pelo seu colega de classe. Caso haja erros, peça que os alunos indiquem na folha de
             resolução qual dos passos está errado.</p>
-            
-            <h5>Download de Materiais</h5>
-            <ul>  
-            <a id="simple-modal-description" href={pdf2Aula1} download>
-            Apresentação 
-            </a>
-            </ul>
-            <ul>  
-            <a id="simple-modal-description" href={pdf1Aula1} download>
-            Desafio 
-            </a>
-            </ul>
-            <ul>  
-            <a id="simple-modal-description" href={pdf3Aula1} download>
-            Exercícios 
-            </a>
-            </ul>
             </body>
         
         </div>
