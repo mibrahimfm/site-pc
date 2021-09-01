@@ -17,10 +17,6 @@ import card15 from '../../images/aula_15.png'
 import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
-
-import pdf1Aula2 from '../../Arquivos/aula2/Criando Algoritmos.pdf'
-import pdf2Aula2 from '../../Arquivos/aula2/Aula 2 - Apresentação.pdf'
-import pdf3Aula2 from '../../Arquivos/aula2/Criando Figuras.pdf'
 import pdf2Aula3 from '../../Arquivos/aula3/Aula 3 - Apresentação.pptx'
 import pdf2Aula4 from '../../Arquivos/aula4/Aula 4 - Apresentação.pptx'
 import pdf2Aula5 from '../../Arquivos/aula5/Aula 5 - Apresentação.pptx'
@@ -80,7 +76,23 @@ function PaginaAulas() {
       "Aula 1 - Apresentação"
     ]
   }]
-
+  const tabela_objetivos_aula2 = [{
+    objetivos: [
+      "Compreender o conceito de algoritmos.",
+      "Entender a importância da definição precisa de instruções.",
+      "Praticar a criação de algoritmos simples."
+    ],
+    atividades: ["Programação em Papel, LightBot*, KidloCoding"],
+    recursos:[
+      "Uma folha do Criando Algoritmos para cada aluno",
+      "Uma folha do Criando Figuras para cada aluno",
+      "Uma Folha de Registro de Soluções para cada aluno",
+      "Materiais de escrever básicos (lápis e borracha)",
+      "Computador para o professor",
+      "Projetor de vídeo",
+      "Aula 2 - Apresentação"
+    ]
+  }]
 
   return (
     <div >
@@ -121,8 +133,6 @@ function PaginaAulas() {
                   title="1"
                   subtitle="Raciocínio Lógico"
                   content="Resolver desafios de lógica e registrar suas soluções."
-                  
-                  link='https://drive.google.com/drive/folders/1FmeW0elAy9IHoO7TbGhynKOQeGQ5IJ0N'
                   tabela_objetivos={tabela_objetivos_aula1}
                 />
               </Grid>
@@ -132,10 +142,7 @@ function PaginaAulas() {
                   title="2"
                   subtitle="Introdução ao Sequenciamento de Ações"
                   content="Conceito de algoritmos. Não requer computadores. Material pode ser impresso."
-                  exercicios={pdf1Aula2}
-                  apresentacao={pdf2Aula2}
-                  desafio={pdf3Aula2}
-                  link="https://drive.google.com/drive/folders/1D_BfjZAmsjnwlQbl0DOnoGBDGl--d5jJs"
+                  tabela_objetivos={tabela_objetivos_aula2}
                 />
               </Grid>
               <Grid item>
