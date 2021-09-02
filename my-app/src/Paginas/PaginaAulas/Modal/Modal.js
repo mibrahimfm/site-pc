@@ -6,6 +6,7 @@ import history from '../../../History';
 import TabelaAula1 from '../PaginaRoteiroAulas/RoteiroAula1/TabelaAula1';
 import TabelaAula2 from '../PaginaRoteiroAulas/RoteiroAula2/TabelaAula2';
 import TabelaAula3 from '../PaginaRoteiroAulas/RoteiroAula3/TabelaAula3';
+import TabelaAula4 from '../PaginaRoteiroAulas/RoteiroAula4/TabelaAula4';
 
 function getModalStyle() {
   const top = 50;
@@ -48,6 +49,7 @@ export default function SimpleModal(props) {
       {props.title == '1' ? <TabelaAula1></TabelaAula1> : <div></div>}
       {props.title == '2' ? <TabelaAula2></TabelaAula2> : <div></div>}
       {props.title == '3' ? <TabelaAula3></TabelaAula3> : <div></div>}
+      {props.title == '3' ? <TabelaAula4></TabelaAula4> : <div></div>}
 
       <Button
         variant="dark" onClick={() => history.push(`/aula-${props.title}`)}>

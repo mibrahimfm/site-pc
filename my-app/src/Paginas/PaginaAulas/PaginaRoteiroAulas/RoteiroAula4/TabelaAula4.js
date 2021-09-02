@@ -5,9 +5,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
-import pdf1Aula2 from '../../../../Arquivos/aula2/Criando Algoritmos.pdf'
-import pdf2Aula2 from '../../../../Arquivos/aula2/Aula 2 - Apresentação.pdf'
-import pdf3Aula2 from '../../../../Arquivos/aula2/Criando Figuras.pdf'
+import pdf2Aula4 from '../../../../Arquivos/aula4/Aula 4 - Apresentação.pptx'
 
 const StyledTableRow = withStyles((theme) => ({
     root: {
@@ -42,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
-export default function TabelaAula2(props) {
+export default function TabelaAula4(props) {
     const classes = useStyles();
 
     return(
@@ -58,27 +56,26 @@ export default function TabelaAula2(props) {
             <TableBody>
                 <StyledTableRow >
                 <StyledTableCell component="th" scope="row">
-                    <li className={classes.paragraph}>Compreender o conceito de algoritmos.</li>
-                    <li className={classes.paragraph}>Entender a importância da definição precisa de instruções.</li>
-                    <li className={classes.paragraph}>Praticar a criação de algoritmos simples.</li>
+                    <li className={classes.paragraph}>Compreender o conceito de laços de repetição</li>
+                    <li className={classes.paragraph}>Entender como os laços de repetição podem ser utilizados para simplificar um algoritmo</li>
+                    <li className={classes.paragraph}>Identificar ações ou conjunto de ações que se repetem</li>
+                    <li className={classes.paragraph}>Utilizar os laços de repetições para agrupar ações e repeti-las</li>
+                    <li className={classes.paragraph}>Aprender a utilizar uma linguagem de programação em blocos</li>
+
+
                 </StyledTableCell>
                 <StyledTableCell component="th" scope="row">
-                    <li className={classes.paragraph}>Programação em Papel, LightBot*, KidloCoding</li>
+                    <li className={classes.paragraph}>Code.org - Curso 2 - Labirinto: Ciclos</li>                    
                 </StyledTableCell>
                 <StyledTableCell component="th" scope="row">
-                    <li className={classes.paragraph}>
-                        <a id="simple-modal-description" href={pdf1Aula2} download>
-                        Uma folha do Criando Algoritmos para cada aluno  </a>
-                    </li>                   
-                    <li className={classes.paragraph}>
-                        <a id="simple-modal-description" href={pdf3Aula2} download>
-                        Uma folha do Criando Figuras para cada aluno  </a>
-                    </li>
-                    <li className={classes.paragraph}>Materiais de escrever básicos (lápis e borracha)</li>
                     <li className={classes.paragraph}>Computador para o professor</li>        
-                    <li className={classes.paragraph}>Projetor de vídeo</li>        
+                    <li className={classes.paragraph}>Projetor de vídeo</li>   
+                    <li className={classes.paragraph}>Computadores para os alunos utilizarem</li>        
+                    <li className={classes.paragraph}>Conexão à Internet</li>        
+                    <li className={classes.paragraph}>Seção da turma criada no Code.org</li>        
+                    <li className={classes.paragraph}>Conta dos alunos adicionadas à seção</li>
                     <li className={classes.paragraph}>
-                        <a id="simple-modal-description" href={pdf2Aula2} download>Aula 2 - Apresentação</a>                        
+                        <a id="simple-modal-description" href={pdf2Aula4} download>Aula 4 - Apresentação</a>                        
                     </li>  
                 </StyledTableCell>
                 </StyledTableRow>

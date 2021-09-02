@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
-export default function TabelaAula1(props) {
+export default function TabelaAula3(props) {
     const classes = useStyles();
 
     return(

@@ -17,7 +17,6 @@ import card15 from '../../images/aula_15.png'
 import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
-import pdf2Aula4 from '../../Arquivos/aula4/Aula 4 - Apresentação.pptx'
 import pdf2Aula5 from '../../Arquivos/aula5/Aula 5 - Apresentação.pptx'
 import pdf1Aula6 from '../../Arquivos/aula6/Cartões de Votação.docx'
 import pdf2Aula6 from '../../Arquivos/aula6/Aula  6 - Apresentação.pptx'
@@ -121,8 +120,6 @@ function PaginaAulas() {
                   title="4"
                   subtitle="Introdução aos Laços de Repetição"
                   content="Exercícios em site interativo."
-                  apresentacao={pdf2Aula4}
-                  link="https://drive.google.com/drive/folders/1tehgg3CzMwyUPrVmJaK4LyrOpAg04iO_"
                 />
               </Grid>
               <Grid item>

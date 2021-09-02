@@ -7,7 +7,7 @@ import history from './History';
 import RoteiroAula1 from './Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula1/RoteiroAula1';
 import RoteiroAula2 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula2/RoteiroAula2";
 import RoteiroAula3 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula3/RoteiroAula3";
-
+import RoteiroAula4 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula4/RoteiroAula4";
 
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
         <Route path='/aula-1' component={RoteiroAula1}/>          
         <Route path='/aula-2' component={RoteiroAula2}/>              
         <Route path='/aula-3' component={RoteiroAula3}/>              
-        {/* <Route path='/aula-4' component={RoteiroAula4}/>              
-        <Route path='/aula-5' component={RoteiroAula5}/>              
+        <Route path='/aula-4' component={RoteiroAula4}/>              
+        {/*<Route path='/aula-5' component={RoteiroAula5}/>              
         <Route path='/aula-6' component={RoteiroAula6}/>              
         <Route path='/aula-7' component={RoteiroAula7}/>              
         <Route path='/aula-8' component={RoteiroAula8}/>              
