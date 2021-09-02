@@ -7,6 +7,7 @@ import TabelaAula1 from '../PaginaRoteiroAulas/RoteiroAula1/TabelaAula1';
 import TabelaAula2 from '../PaginaRoteiroAulas/RoteiroAula2/TabelaAula2';
 import TabelaAula3 from '../PaginaRoteiroAulas/RoteiroAula3/TabelaAula3';
 import TabelaAula4 from '../PaginaRoteiroAulas/RoteiroAula4/TabelaAula4';
+import TabelaAula5 from '../PaginaRoteiroAulas/RoteiroAula5/TabelaAula5';
 
 function getModalStyle() {
   const top = 50;
@@ -49,7 +50,18 @@ export default function SimpleModal(props) {
       {props.title == '1' ? <TabelaAula1></TabelaAula1> : <div></div>}
       {props.title == '2' ? <TabelaAula2></TabelaAula2> : <div></div>}
       {props.title == '3' ? <TabelaAula3></TabelaAula3> : <div></div>}
-      {props.title == '3' ? <TabelaAula4></TabelaAula4> : <div></div>}
+      {props.title == '4' ? <TabelaAula4></TabelaAula4> : <div></div>}
+      {props.title == '5' ? <TabelaAula5></TabelaAula5> : <div></div>}
+      {/* {props.title == '6' ? <TabelaAula6></TabelaAula6> : <div></div>}
+      {props.title == '7' ? <TabelaAula7></TabelaAula7> : <div></div>}
+      {props.title == '8' ? <TabelaAula8></TabelaAula8> : <div></div>}
+      {props.title == '9' ? <TabelaAula9></TabelaAula9> : <div></div>}
+      {props.title == '10' ? <TabelaAula10></TabelaAula10> : <div></div>}
+      {props.title == '11' ? <TabelaAula11></TabelaAula11> : <div></div>}
+      {props.title == '12' ? <TabelaAula12></TabelaAula12> : <div></div>}
+      {props.title == '13' ? <TabelaAula13></TabelaAula13> : <div></div>}
+      {props.title == '14' ? <TabelaAula14></TabelaAula14> : <div></div>}
+      {props.title == '15' ? <TabelaAula15></TabelaAula15> : <div></div>} */}
 
       <Button
         variant="dark" onClick={() => history.push(`/aula-${props.title}`)}>

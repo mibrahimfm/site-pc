@@ -17,7 +17,6 @@ import card15 from '../../images/aula_15.png'
 import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
-import pdf2Aula5 from '../../Arquivos/aula5/Aula 5 - Apresentação.pptx'
 import pdf1Aula6 from '../../Arquivos/aula6/Cartões de Votação.docx'
 import pdf2Aula6 from '../../Arquivos/aula6/Aula  6 - Apresentação.pptx'
 import pdf4Aula6 from '../../Arquivos/aula6/Aula 6 - Roteiro.docx'
@@ -128,8 +127,6 @@ function PaginaAulas() {
                   title="5"
                   subtitle="Introdução ao Plano Cartesiano"
                   content="Exercícios em site interativo."
-                  apresentacao={pdf2Aula5}
-                  link="https://drive.google.com/drive/folders/1ptT4DZGqbU6EtUoAwRWT5SycCY4TeA30"
                 />
               </Grid>
               <Grid item>

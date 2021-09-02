@@ -5,7 +5,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
-import pdf2Aula4 from '../../../../Arquivos/aula4/Aula 4 - Apresentação.pptx'
+import pdf2Aula5 from '../../../../Arquivos/aula5/Aula 5 - Apresentação.pptx'
 
 const StyledTableRow = withStyles((theme) => ({
     root: {
@@ -75,7 +75,7 @@ export default function TabelaAula5(props) {
                     <li className={classes.paragraph}>Seção da turma criada no Code.org</li>        
                     <li className={classes.paragraph}>Conta dos alunos adicionadas à seção</li>
                     <li className={classes.paragraph}>
-                        <a id="simple-modal-description" href={pdf2Aula4} download>Aula 4 - Apresentação</a>                        
+                        <a id="simple-modal-description" href={pdf2Aula5} download>Aula 5 - Apresentação</a>                        
                     </li>  
                 </StyledTableCell>
                 </StyledTableRow>
