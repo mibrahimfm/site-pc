@@ -1,4 +1,4 @@
-import './PaginaTese.css';
+import './PaginaSobre.css';
 import TabelaMetaforas from './TabelaMetaforas/TabelaMetaforas';
 import DissertacaoCompleta from '../../Arquivos/Dissertacao/Dissertacao.pdf';
 import React from 'react';
@@ -7,7 +7,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-function PaginaTese(){
+function PaginaSobre(){
     return(
         <div>
             <header>
@@ -184,7 +184,7 @@ function PaginaTese(){
                  expandIcon={<ExpandMoreIcon />}
                  aria-controls="panel3a-content"
                  id="panel3a-header">
-                <h3>A dissertação</h3>
+                <h3>Publicações</h3>
                 </AccordionSummary>
                 <AccordionDetails>
                 <p>Para ainda mais detalhes sobre o projeto, a criação da sequência e os estudos realizados, aqui está a <a href={DissertacaoCompleta} download='Dissertacao_Completa.pdf'>dissertação completa de Oto Braz Assunção.</a></p>
@@ -195,4 +195,4 @@ function PaginaTese(){
     );
 }
 
-export default PaginaTese;
+export default PaginaSobre;

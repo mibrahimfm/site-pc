@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 
 import React, { Component } from 'react';
-import SimpleModal from '../../../Modal/Modal.js';
+import SimpleModal from '../Modal/Modal.js';
 
 export default class AulaCard extends Component {
    render() {
@@ -47,7 +47,6 @@ export default class AulaCard extends Component {
               apresentacao={this.props.apresentacao}
               desafio={this.props.desafio}
               roteiro={this.props.roteiro}
-              tabela_objetivos={this.props.tabela_objetivos}
             >
             </SimpleModal>
         </Card.Footer>        

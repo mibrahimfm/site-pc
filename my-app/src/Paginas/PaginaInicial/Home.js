@@ -7,7 +7,7 @@ function Home() {
                 <h1 className="title">Pensamento Computacional nos Anos Finais do Ensino Fundamental baseado nas Metáforas de Perspectivas Culturais</h1>
             </header>
             <body className="body">
-                <p>A sequência didática foi elaborada por <a href='/sobre-o-projeto'>Oto Braz de Assunção em sua Tese de Mestrado </a>  
+                <p>A sequência didática foi elaborada por <a href='/sobre-o-projeto'>Oto Braz Assunção em sua Dissertação de Mestrado </a>  
                 e fundamentada nas Metáforas de Perspectivas Culturais (MPCs). </p>
                 <i className="quote">As metáforas indicam que a interação com o sistema computacional pode ser
                                 vista como uma “viagem” e que os seus usuários são “viajantes”. Assim, considera-se
