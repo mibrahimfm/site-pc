@@ -17,9 +17,7 @@ import card15 from '../../images/aula_15.png'
 import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
-import pdf1Aula6 from '../../Arquivos/aula6/Cartões de Votação.docx'
-import pdf2Aula6 from '../../Arquivos/aula6/Aula  6 - Apresentação.pptx'
-import pdf4Aula6 from '../../Arquivos/aula6/Aula 6 - Roteiro.docx'
+
 import pdf2Aula7 from '../../Arquivos/aula7/Aula 7 - Apresentação.pptx'
 import pdf4Aula7 from '../../Arquivos/aula7/Aula 7 - Roteiro.docx'
 import pdf2Aula8 from '../../Arquivos/aula8/Aula 8 - Apresentação.pptx'
@@ -133,12 +131,8 @@ function PaginaAulas() {
                 <AulaCard
                   image={card6}
                   title="6"
-                  subtitle=" o seu nome"
+                  subtitle="Anime o seu nome"
                   content="Exercícios em site interativo."
-                  exercicios={pdf1Aula6}
-                  apresentacao={pdf2Aula6}
-                  roteiro={pdf4Aula6}
-                  link="https://drive.google.com/drive/folders/14ecl_xTY0SC5HJXjFIS_YlOYBm3d859C"
                 />
               </Grid>
               <Grid item>

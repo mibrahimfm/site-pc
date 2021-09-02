@@ -5,7 +5,7 @@ function RoteiroAula5() {
     return(
         <div>
             <header>
-                <h1 className="title">Aula 5 - Introdução ao Sequenciamento de Ações</h1>
+                <h1 className="title">Aula 5 -Introdução ao Plano Cartesiano</h1>
             </header>
             <body className="body">
                 <TabelaAula5></TabelaAula5>

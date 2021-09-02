@@ -8,6 +8,7 @@ import TabelaAula2 from '../PaginaRoteiroAulas/RoteiroAula2/TabelaAula2';
 import TabelaAula3 from '../PaginaRoteiroAulas/RoteiroAula3/TabelaAula3';
 import TabelaAula4 from '../PaginaRoteiroAulas/RoteiroAula4/TabelaAula4';
 import TabelaAula5 from '../PaginaRoteiroAulas/RoteiroAula5/TabelaAula5';
+import TabelaAula6 from '../PaginaRoteiroAulas/RoteiroAula6/TabelaAula6';
 
 function getModalStyle() {
   const top = 50;
@@ -52,8 +53,8 @@ export default function SimpleModal(props) {
       {props.title == '3' ? <TabelaAula3></TabelaAula3> : <div></div>}
       {props.title == '4' ? <TabelaAula4></TabelaAula4> : <div></div>}
       {props.title == '5' ? <TabelaAula5></TabelaAula5> : <div></div>}
-      {/* {props.title == '6' ? <TabelaAula6></TabelaAula6> : <div></div>}
-      {props.title == '7' ? <TabelaAula7></TabelaAula7> : <div></div>}
+      {props.title == '6' ? <TabelaAula6></TabelaAula6> : <div></div>}
+      {/*{props.title == '7' ? <TabelaAula7></TabelaAula7> : <div></div>}
       {props.title == '8' ? <TabelaAula8></TabelaAula8> : <div></div>}
       {props.title == '9' ? <TabelaAula9></TabelaAula9> : <div></div>}
       {props.title == '10' ? <TabelaAula10></TabelaAula10> : <div></div>}
