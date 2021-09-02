@@ -13,5 +13,7 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SITE_PC }}'
-          projectId: site-pc
+          firebaseServiceAccount: >-
+            ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PENSAMENTO_COMPUTACIONAL_EFII
+            }}
+          projectId: pensamento-computacional-efii
