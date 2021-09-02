@@ -1,6 +1,10 @@
 import './PaginaSobre.css';
 import TabelaMetaforas from './TabelaMetaforas/TabelaMetaforas';
 import DissertacaoCompleta from '../../Arquivos/Dissertacao/Dissertacao.pdf';
+import RelatoAplicacao from '../../Arquivos/Dissertacao/RelatoAplicacao.pdf';
+import PropostaUsoRecursos from '../../Arquivos/Dissertacao/PropostaUsoRecursos.pdf';
+import IntroduceComputationalThinking from '../../Arquivos/Dissertacao/IntroduceComputationalThinking.pdf'
+import CulturalViewPointMetaphors from '../../Arquivos/Dissertacao/CulturalViewpointMetaphors.pdf'
 import React from 'react';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
@@ -187,9 +191,40 @@ function PaginaSobre(){
                 <h3>Publicações</h3>
                 </AccordionSummary>
                 <AccordionDetails>
-                <p>Para ainda mais detalhes sobre o projeto, a criação da sequência e os estudos realizados, aqui está a <a href={DissertacaoCompleta} download='Dissertacao_Completa.pdf'>dissertação completa de Oto Braz Assunção.</a></p>
+                <p>Para ainda mais detalhes sobre o projeto, a criação da sequência e os estudos realizados, aqui estão as publicações relacionadas ao projeto:
+                    <br></br>
+                    <br></br>
+
+                    <dl>
+                        <dt> Dissertação completa: <a href={DissertacaoCompleta} download='Dissertacao_Completa.pdf'>Proposta de Sequência Didática para Introdução da Computação e do Pensamento Computacional no Ensino Fundamental II Baseada nas Metáforas de Perspectivas Culturais</a> </dt>
+                        <dt> Artigo: <a href={RelatoAplicacao} download='Relato_Aplicacao_Sequencia.pdf'>Relato da Aplicação de uma Sequência Didática Fundamentada nas Metáforas de Perspectivas Culturais para Fomentação do Pensamento Computacional</a> </dt>
+                        <dt> Artigo: <a href={PropostaUsoRecursos} download='Proposta_Uso_Recursos_Ensino_PC.pdf'>Proposta do Uso de Múltiplos Recursos para o Ensino de Pensamento Computacional no Ensino Fundamental II: Um Relato de Experiência</a></dt>
+                        <dt> Artigo: <a href={IntroduceComputationalThinking} download='Introduce_Computation_Thinking_To_Children.pdf'>Strategies to Introduce Computational Thinking to Children: An Analysis based on Cultural Viewpoint Metaphor</a></dt>
+                        <dt> Artigo: <a href={CulturalViewPointMetaphors} download='Cultural_View_Point_Metaphors.pdf'>Using Cultural Viewpoint Metaphors in the Analysis of Computational Thinking Teaching</a></dt>
+                    </dl>
+                </p>
                 </AccordionDetails>
-            </Accordion>    
+            </Accordion> 
+            <Accordion>
+                <AccordionSummary
+                 expandIcon={<ExpandMoreIcon />}
+                 aria-controls="panel3a-content"
+                 id="panel3a-header">
+                <h3>Referências</h3>
+                </AccordionSummary>
+                <AccordionDetails>
+                <p>
+                    Assunção, O., Prates, R., & França, E. (2021). Relato da Aplicação de uma Sequência Didática Fundamentada nas Metáforas de Perspectivas Culturais para Fomentação do Pensamento Computacional. In Anais do XXIX Workshop sobre Educação em Computação, (pp. 131-140). Porto Alegre: SBC. doi: https://doi.org/10.5753/wei.2021.15904
+                    <br></br><br></br>
+                    Oliveira, G., Assunção, O., & Prates, R. (2019). Strategies to Introduce Computational Thinking to Children: An Analysis based on Cultural Viewpoint Metaphors. Brazilian Symposium on Computers in Education (Simpósio Brasileiro de Informática na Educação - SBIE), 30(1), 547. doi:http://dx.doi.org/10.5753/cbie.sbie.2019.547
+                    <br></br><br></br>
+                    Oliveira, G., Assunção, O., & Prates, R. (2019). Using cultural viewpoint metaphors in the analysis of computational thinking teaching. In Proceedings of the 18th Brazilian Symposium on Human Factors in Computing Systems (IHC '19). Association for Computing Machinery, New York, NY, USA, Article 54, 1–13. DOI: https://doi.org/10.1145/3357155.3358466
+                    <br></br><br></br>
+                    Assunção, O., Braga, N., Prates, R., & França, E. (2019). Proposta do Uso de Múltiplos Recursos para o Ensino de Pensamento Computacional no Ensino Fundamental II: Um Relato de Experiência. Anais do Workshop de Informática na Escola, 25(1), 1309-1313. doi:http://dx.doi.org/10.5753/cbie.wie.2019.1309
+                </p> 
+
+                </AccordionDetails>
+            </Accordion>   
             </body>
         </div>
     );
