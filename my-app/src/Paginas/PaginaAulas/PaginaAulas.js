@@ -18,8 +18,7 @@ import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
 
-import pdf2Aula10 from '../../Arquivos/aula10/Aula 10 - Apresentação.pdf'
-import pdf4Aula10 from '../../Arquivos/aula10/Aula 10 - Roteiro.pdf'
+
 import pdf2Aula11 from '../../Arquivos/aula11/Aula 11 - Apresentação.pptx'
 import pdf4Aula11 from '../../Arquivos/aula11/Aula 11 - Roteiro.docx'
 import pdf2Aula12 from '../../Arquivos/aula12/Aula 12 - Apresentação.pdf'
@@ -158,9 +157,6 @@ function PaginaAulas() {
                   title="10"
                   subtitle="Introdução às Variáveis"
                   content="Exercícios em site interativo."
-                  apresentacao={pdf2Aula10}
-                  roteiro={pdf4Aula10}
-                  link="https://drive.google.com/drive/folders/14YAB41hJb9I7DHXBWnQs8Ra2co34_t3N"
                 />
               </Grid>
               <Grid item>

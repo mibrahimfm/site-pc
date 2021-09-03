@@ -9,66 +9,84 @@ function RoteiroAula10() {
             </header>
             <body className="body">
                 <TabelaAula10></TabelaAula10>
-                <a target="_blank" rel="noreferrer" href="https://drive.google.com/drive/folders/1kqqL-PkA3GsB105Nrmnk1bwlFsHitiLsz">
+                <a target="_blank" rel="noreferrer" href="https://drive.google.com/drive/folders/14YAB41hJb9I7DHXBWnQs8Ra2co34_t3N">
                     Drive com todos os materiais da aula 10
                 </a>
 
-                <p>Nesta aula os alunos aprendem sobre as estruturas condicionais e as colocam em prática através do desenvolvimento do Jogo da Coleta.</p>
+                <p>Nesta aula os alunos aprendem sobre variáveis e praticam a sua utilização ao desen-
+volver um sistema de pontuação no Scratch para o Jogo de Clicar, Jogo da Coleta e o
+Pong.</p>
               
             <h3>Descrição da Aula</h3>
             <p>
-            Aula 8 foi estruturada em 3 partes: Introdução às estruturas condicionais e Implementação do Jogo da Coleta.
+            Estruturamos esta aula em 2 partes: Introdução às variáveis, Implementando sistemas
+de pontuação.
             </p>
-            <h5>Introdução às estruturas condicionais</h5>
+            <h5>Introdução às variáveis</h5>
             <p>
-            Na parte introdutória da Aula 8, o professor apresenta o que são condições e as estruturas condicionais aos alunos e os questiona sobre o que é uma condição e se eles 
-            conseguem pensar em algum exemplo de condição. <br></br>Em seguida, o professor conduz a Dinâmica da Palma. A dinâmica é uma atividade simples e tem como objetivo fazer com que os alunos pratiquem a verificação 
-            de uma condição e que reajam de acordo com o resultado da verificação. A dinâmica foi dividida em duas partes: a primeira faz o uso de uma condicional única (e.g.: se o número na tela for maior que 5, bata uma palma),
-             já a segunda az o uso de duas condicionais (e.g.: se o número na tela for maior que 5, bata uma palma. Senão, bata duas palmas). A apresentação Aula 8 - Apresentação possui cinco números para cada 
-             parte da dinâmica. O número 5 está presente em ambas as partes com o objetivo de confundir os alunos, pois ele não é nem menor e nem maior que 5, sendo este um caso 
-             que não cai em nenhuma das condições. Desta forma, os alunos não devem nenhuma palma em ambas as partes da dinâmica. 
-             <br></br>Para finalizar a parte introdutória, o professor dá alguns exemplos de usos das condicionais referenciando as ferramentas que eles utilizaram no curso até o momento tais como:
-                <dl>
-                    <dt>Login no Site do Scratch</dt>
-                    <dd>Verificação se o usuário e a senha estão corretos. Se estiver correto, a plataforma deixa o usuário acessar a conta. Senão, uma mensagem de erro é exibida informando o usuário que as credenciais informadas estão erradas.</dd>
-                    <dt>Kahoot!</dt>
-                    <dd>Verificar SE as respostas dadas estão corretas ou não.</dd>
-                    <dt>Code.org</dt>
-                    <dd>Verificar SE o algoritmo está correto ou SE o número de blocos utilizados é o mínimo.</dd>
-                </dl>
+            Antes do professor apresentar o conceito de variáveis e suas utilizações, é interessante
+            que uma rápida revisão dos principais scripts que os alunos tiveram que desenvolver
+            na aula anterior seja conduzida. Na Aula 10 - Apresentação, foram incluídos os scripts
+            responsáveis pela configuração do estado inicial do jogo quando a bandeira verde é
+            clicada, pela movimentação da bola e por fazer com que a bola quique na raquete (i.e.:
+            paddle).
             </p>
-            <p>E depois, apresenta brevemente os blocos que serão utilizados pelos alunos para implementação do Jogo Pong durante o restante da aula.</p> 
+            <p>Em seguida, o professor apresenta a definição formal de variáveis, indicando que
+            elas são responsáveis pelo armazenamento de informações. O professor diz que as
+            variáveis serão utilizadas pelos alunos na aula para que eles criem um sistema de
+            pontuação para ambos o jogo de clicar, jogo da coleta e o pong desenvolvidos nas aulas
+            anteriores. O restante dos slides na Aula 10 - Apresentação contém o passo a passo</p> 
+            <p>
+            Por fim, o professor introduz os dois blocos de comando para fazer a manipulação
+            de variáveis que os alunos utilizarão na atividade prática (Figura A.2).
+            </p>
 
-            <h5>Implementação do Jogo da Coleta</h5>
+                {/* TODO Inserir figura */}
             <p>
-            Agora, o professor apresenta o que os alunos estarão utilizando e desenvolvendo na parte prática da aula. Os novos blocos a serem utilizados nesta aula são os seguintes:  
-            
-            <dl>
-                <dt>Bloco SE</dt>
-                <dd>Condicional simples que verifica se uma condição é verdadeira.</dd>
-                <dt>Sensor TOCANDO EM</dt>
-                <dd>Indica se o objeto está tocando em algo</dd>
-                <dt>Sensor TECLA PRESSIONADA:</dt>
-                <dd>Indica se determinada tecla está sendo pressionada.</dd>
-            </dl>
+            O professor explica o funcionamento dos comandos adicione [valor] a [variável] e
+            mude [variável] para [valor], indicando que os alunos podem digitar valores nos campos
+            em branco e que eles podem clicar em minha variável para selecionar qual variável será
+            manipulada pelo comando.
+            </p>
 
+            <h5>Implementando sistemas de pontuação</h5>
+            <p>
+            Finalmente, o professor apresenta aos alunos o que eles farão na aula utilizando o
+            último slide da Aula 10 - Apresentação para ilustrar o funcionamento das variáveis e
+            quando elas são incrementadas durante os jogos.
             </p>
             <p>
-            Similarmente a aula anterior, antes de pedir para os alunos acessarem suas contas 
-            do Scratch e distribuir as folhas <i>Aula 8 - Roteiro</i>, o professor explica aos alunos o 
-            projeto que eles desenvolverão na aula com o auxílio de uma animação demonstrando 
-            o projeto final em funcionamento. 
-            <br></br>O professor deve relacionar o que está acontecendo 
-            nas animações com os blocos apresentados previamente para que os alunos tenham 
-            uma ideia inicial do que eles devem fazer. 
-            <br></br>O professor deve encorajar os alunos a tentar ao máximo implementar os passos 
-            e resolver os problemas que eles enfrentarem sozinhos. Nas folhas <i>Aula 8 - Roteiro</i> foram incluídas algumas modificações que podem ser 
-            implementadas pelos alunos que terminarem de implementar as funcionalidades básicas do projeto.
+            Na atividade prática, os alunos terão que incrementar os valores das variáveis
+            quando o personagem for clicado no Jogo de Clicar, quando o personagem coletar o
+            objeto no Jogo da Coleta e quando a bola tocar na raquete no Pong. Além disso, eles
+            terão que mudar o valor das variáveis para 0 quando o jogo for iniciado, caso contrário,
+            o jogo é iniciado com o valor da variável armazenado através de execuções anteriores
+            do jogo.
+            </p>
+            <p>
+            O professor, então, distribui as folhas Aula 10 - Roteiro aos alunos para eles
+            darem início a atividade prática enquanto eles estão acessando suas contas.
+            Caso alguns dos alunos não tenham conseguido terminar a implementação do
+            Pong na aula anterior, os ajude rapidamente após o início da atividade prática.
             </p>
             <p>
                 <i>
-                    <b>Obs.:</b>o projeto implementado pode ser acessado através do seguinte link: <a href="https://scratch.mit.edu/projects/475974434">Aula 7 - Jogo de Clicar</a>                
+                    <b>Recomendação:</b>a princípio, distribua apenas as partes 1, 2 E 3 da primeira folha do roteiro
+                    aos alunos. Quando os alunos terminarem estas duas partes, distribua a parte MODIFICAÇÕES da
+                    primeira folha. E finalmente, a segunda folha do roteiro com outras sugestões para que eles tentem
+                    implementar algumas delas.               
                 </i>
+            </p>
+
+            <p>
+                <i>
+                    <b>Obs.:Acesse os projetos através seguintes links:</b>
+                </i>
+                <ul>
+                    <li><a href="https://scratch.mit.edu/projects/475727950">Aula 10 - Jogo de Clicar com Pontuação </a></li>
+                    <li><a href="https://scratch.mit.edu/projects/476016148">Aula 10 - Jogo da Coleta com Pontuação </a></li>
+                    <li><a href="https://scratch.mit.edu/projects/475740616"> Aula 10 - Pong com Pontuação</a></li>
+                </ul>
             </p>
             </body>
         
@@ -76,4 +94,4 @@ function RoteiroAula10() {
     );
 }
 
-export default RoteiroAula8;
+export default RoteiroAula10;

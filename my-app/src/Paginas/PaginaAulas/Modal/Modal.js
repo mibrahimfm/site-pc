@@ -11,6 +11,8 @@ import TabelaAula5 from '../PaginaRoteiroAulas/RoteiroAula5/TabelaAula5';
 import TabelaAula6 from '../PaginaRoteiroAulas/RoteiroAula6/TabelaAula6';
 import TabelaAula7 from '../PaginaRoteiroAulas/RoteiroAula7/TabelaAula7';
 import TabelaAula8 from '../PaginaRoteiroAulas/RoteiroAula8/TabelaAula8';
+import TabelaAula10 from '../PaginaRoteiroAulas/RoteiroAula10/TabelaAula10';
+import TabelaAula9 from '../PaginaRoteiroAulas/RoteiroAula9/TabelaAula9';
 
 function getModalStyle() {
   const top = 50;
@@ -57,14 +59,14 @@ export default function SimpleModal(props) {
       {props.title === '5' ? <TabelaAula5></TabelaAula5> : <div></div>}
       {props.title === '6' ? <TabelaAula6></TabelaAula6> : <div></div>}
       {props.title === '7' ? <TabelaAula7></TabelaAula7> : <div></div>}
-      {props.title == '8' ? <TabelaAula8></TabelaAula8> : <div></div>}
-      {props.title == '9' ? <TabelaAula9></TabelaAula9> : <div></div>}
-      {/*{props.title == '10' ? <TabelaAula10></TabelaAula10> : <div></div>}
-      {props.title == '11' ? <TabelaAula11></TabelaAula11> : <div></div>}
-      {props.title == '12' ? <TabelaAula12></TabelaAula12> : <div></div>}
-      {props.title == '13' ? <TabelaAula13></TabelaAula13> : <div></div>}
-      {props.title == '14' ? <TabelaAula14></TabelaAula14> : <div></div>}
-      {props.title == '15' ? <TabelaAula15></TabelaAula15> : <div></div>} */}
+      {props.title === '8' ? <TabelaAula8></TabelaAula8> : <div></div>}
+      {props.title === '9' ? <TabelaAula9></TabelaAula9> : <div></div>}
+      {props.title === '10' ? <TabelaAula10></TabelaAula10> : <div></div>}
+      {/*{props.title === '11' ? <TabelaAula11></TabelaAula11> : <div></div>}
+      {props.title === '12' ? <TabelaAula12></TabelaAula12> : <div></div>}
+      {props.title === '13' ? <TabelaAula13></TabelaAula13> : <div></div>}
+      {props.title === '14' ? <TabelaAula14></TabelaAula14> : <div></div>}
+      {props.title === '15' ? <TabelaAula15></TabelaAula15> : <div></div>} */}
 
       <Button
         variant="dark" onClick={() => history.push(`/aula-${props.title}`)}>
