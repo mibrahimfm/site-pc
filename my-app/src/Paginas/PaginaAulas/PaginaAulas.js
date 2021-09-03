@@ -18,8 +18,6 @@ import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
 
-import pdf2Aula7 from '../../Arquivos/aula7/Aula 7 - Apresentação.pptx'
-import pdf4Aula7 from '../../Arquivos/aula7/Aula 7 - Roteiro.docx'
 import pdf2Aula8 from '../../Arquivos/aula8/Aula 8 - Apresentação.pptx'
 import pdf4Aula8 from '../../Arquivos/aula8/Aula 8 - Roteiro.pdf'
 import pdf2Aula9 from '../../Arquivos/aula9/Aula 9 - Apresentação.pptx'
@@ -91,7 +89,7 @@ function PaginaAulas() {
                 <AulaCard
                   image={card1}
                   title="1"
-                  subtitle="Raciocínio Lógico"
+                  subtitle="Exercitando o Raciocínio Lógico"
                   content="Resolver desafios de lógica e registrar suas soluções."
                 />
               </Grid>
@@ -115,7 +113,7 @@ function PaginaAulas() {
                 <AulaCard
                   image={card4}
                   title="4"
-                  subtitle="Introdução aos Laços de Repetição"
+                  subtitle="Introdução aos Laços de Repetição (Continuação)"
                   content="Exercícios em site interativo."
                 />
               </Grid>
@@ -123,7 +121,7 @@ function PaginaAulas() {
                 <AulaCard
                   image={card5}
                   title="5"
-                  subtitle="Introdução ao Plano Cartesiano"
+                  subtitle="Introdução ao Plano Cartesiano e o Scratch"
                   content="Exercícios em site interativo."
                 />
               </Grid>
@@ -139,11 +137,8 @@ function PaginaAulas() {
                 <AulaCard
                   image={card7}
                   title="7"
-                  subtitle="Blocos de eventos"
-                  content="Exercícios em site interativo."
-                  apresentacao={pdf2Aula7}
-                  roteiro={pdf4Aula7}
-                  link="https://drive.google.com/drive/folders/1g20T0F1KPGPtlWiMs6mEhcD9alCoYOp-"
+                  subtitle="Jogo de Clicar"
+                  content="Exercícios em site interativo."                  
                 />
               </Grid>
               <Grid item>
@@ -240,7 +235,7 @@ function PaginaAulas() {
       </Accordion>
       
     </div>
-      <p>Todo o material pode ser encontrado no link: <a target="_blank" href="https://drive.google.com/drive/folders/1uAqN4TJovNb9IOHYhSuIALxh-yFWuavQ">aqui</a></p>
+      <p>Todo o material pode ser encontrado no link: <a target="_blank" rel="noreferrer" href="https://drive.google.com/drive/folders/1uAqN4TJovNb9IOHYhSuIALxh-yFWuavQ">aqui</a></p>
       </body>
     </div>
   );

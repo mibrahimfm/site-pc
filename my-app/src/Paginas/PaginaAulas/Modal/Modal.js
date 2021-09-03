@@ -9,6 +9,8 @@ import TabelaAula3 from '../PaginaRoteiroAulas/RoteiroAula3/TabelaAula3';
 import TabelaAula4 from '../PaginaRoteiroAulas/RoteiroAula4/TabelaAula4';
 import TabelaAula5 from '../PaginaRoteiroAulas/RoteiroAula5/TabelaAula5';
 import TabelaAula6 from '../PaginaRoteiroAulas/RoteiroAula6/TabelaAula6';
+import TabelaAula7 from '../PaginaRoteiroAulas/RoteiroAula7/TabelaAula7';
+import TabelaAula8 from '../PaginaRoteiroAulas/RoteiroAula8/TabelaAula8';
 
 function getModalStyle() {
   const top = 50;
@@ -48,15 +50,15 @@ export default function SimpleModal(props) {
   const body = (
     <div style={modalStyle} className={classes.paper}>
       <h5 id="simple-modal-title">Aula {props.title} - {props.subtitle} </h5>
-      {props.title == '1' ? <TabelaAula1></TabelaAula1> : <div></div>}
-      {props.title == '2' ? <TabelaAula2></TabelaAula2> : <div></div>}
-      {props.title == '3' ? <TabelaAula3></TabelaAula3> : <div></div>}
-      {props.title == '4' ? <TabelaAula4></TabelaAula4> : <div></div>}
-      {props.title == '5' ? <TabelaAula5></TabelaAula5> : <div></div>}
-      {props.title == '6' ? <TabelaAula6></TabelaAula6> : <div></div>}
-      {/*{props.title == '7' ? <TabelaAula7></TabelaAula7> : <div></div>}
+      {props.title === '1' ? <TabelaAula1></TabelaAula1> : <div></div>}
+      {props.title === '2' ? <TabelaAula2></TabelaAula2> : <div></div>}
+      {props.title === '3' ? <TabelaAula3></TabelaAula3> : <div></div>}
+      {props.title === '4' ? <TabelaAula4></TabelaAula4> : <div></div>}
+      {props.title === '5' ? <TabelaAula5></TabelaAula5> : <div></div>}
+      {props.title === '6' ? <TabelaAula6></TabelaAula6> : <div></div>}
+      {props.title === '7' ? <TabelaAula7></TabelaAula7> : <div></div>}
       {props.title == '8' ? <TabelaAula8></TabelaAula8> : <div></div>}
-      {props.title == '9' ? <TabelaAula9></TabelaAula9> : <div></div>}
+      {/*props.title == '9' ? <TabelaAula9></TabelaAula9> : <div></div>}
       {props.title == '10' ? <TabelaAula10></TabelaAula10> : <div></div>}
       {props.title == '11' ? <TabelaAula11></TabelaAula11> : <div></div>}
       {props.title == '12' ? <TabelaAula12></TabelaAula12> : <div></div>}

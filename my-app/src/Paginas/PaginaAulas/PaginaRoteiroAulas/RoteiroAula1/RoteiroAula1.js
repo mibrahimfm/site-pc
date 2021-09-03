@@ -9,7 +9,7 @@ function RoteiroAula1() {
             </header>
             <body className="body">
                 <TabelaAula1></TabelaAula1>
-                <a target="_blank" href="https://drive.google.com/drive/folders/1FmeW0elAy9IHoO7TbGhynKOQeGQ5IJ0N">
+                <a target="_blank" rel="noreferrer" href="https://drive.google.com/drive/folders/1FmeW0elAy9IHoO7TbGhynKOQeGQ5IJ0N">
                     Drive com todos os materiais da aula 1
                 </a>
                 <p>Na primeira aula do GTD os alunos praticarão o raciocínio lógico através de um jogo de

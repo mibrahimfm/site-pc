@@ -9,7 +9,7 @@ function RoteiroAula2() {
             </header>
             <body className="body">
                 <TabelaAula2></TabelaAula2>
-                <a target="_blank" href="https://drive.google.com/drive/folders/1D_BfjZAmsjnwlQbl0DOnoGBDGl--d5jJs">
+                <a target="_blank" rel="noreferrer" href="https://drive.google.com/drive/folders/1D_BfjZAmsjnwlQbl0DOnoGBDGl--d5jJs">
                     Drive com todos os materiais da aula 2
                 </a>
 

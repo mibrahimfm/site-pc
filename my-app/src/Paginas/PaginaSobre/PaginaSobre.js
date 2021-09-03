@@ -200,7 +200,7 @@ function PaginaSobre(){
                         <dt> Artigo: <a href={RelatoAplicacao} download='Relato_Aplicacao_Sequencia.pdf'>Relato da Aplicação de uma Sequência Didática Fundamentada nas Metáforas de Perspectivas Culturais para Fomentação do Pensamento Computacional</a> </dt>
                         <dt> Artigo: <a href={PropostaUsoRecursos} download='Proposta_Uso_Recursos_Ensino_PC.pdf'>Proposta do Uso de Múltiplos Recursos para o Ensino de Pensamento Computacional no Ensino Fundamental II: Um Relato de Experiência</a></dt>
                         <dt> Artigo: <a href={IntroduceComputationalThinking} download='Introduce_Computation_Thinking_To_Children.pdf'>Strategies to Introduce Computational Thinking to Children: An Analysis based on Cultural Viewpoint Metaphor</a></dt>
-                        <dt> Artigo: <a href={CulturalViewPointMetaphors} download='Cultural_View_Point_Metaphors.pdf'>Using Cultural Viewpoint Metaphors in the Analysis of Computational Thinking Teaching</a></dt>
+                        <dt> Artigo: <a href={CulturalViewPointMetaphors} download='Cultural_Viewpoint_Metaphors.pdf'>Using Cultural Viewpoint Metaphors in the Analysis of Computational Thinking Teaching</a></dt>
                     </dl>
                 </p>
                 </AccordionDetails>
