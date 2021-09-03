@@ -57,7 +57,7 @@ export default function SimpleModal(props) {
       {props.title === '5' ? <TabelaAula5></TabelaAula5> : <div></div>}
       {props.title === '6' ? <TabelaAula6></TabelaAula6> : <div></div>}
       {props.title === '7' ? <TabelaAula7></TabelaAula7> : <div></div>}
-      {props.title == '8' ? <TabelaAula8></TabelaAula8> : <div></div>}
+      {props.title === '8' ? <TabelaAula8></TabelaAula8> : <div></div>}
       {/*props.title == '9' ? <TabelaAula9></TabelaAula9> : <div></div>}
       {props.title == '10' ? <TabelaAula10></TabelaAula10> : <div></div>}
       {props.title == '11' ? <TabelaAula11></TabelaAula11> : <div></div>}

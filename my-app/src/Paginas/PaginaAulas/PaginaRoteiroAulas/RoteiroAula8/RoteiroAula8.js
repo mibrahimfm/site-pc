@@ -67,7 +67,7 @@ function RoteiroAula8() {
             </p>
             <p>
                 <i>
-                    <b>Obs.:</b>o projeto implementado pode ser acessado através do seguinte link: <a href="https://scratch.mit.edu/projects/475974434">Aula 7 - Jogo de Clicar</a>                
+                    <b>Obs.:</b>o projeto implementado pode ser acessado através do seguinte link: <a href="https://scratch.mit.edu/projects/475974434">Aula 8 - Introdução às condicionais</a>                
                 </i>
             </p>
             </body>

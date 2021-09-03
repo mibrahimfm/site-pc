@@ -145,11 +145,8 @@ function PaginaAulas() {
                 <AulaCard
                   image={card8}
                   title="8"
-                  subtitle="Condicionais - Parte 1"
-                  content="Exercícios em site interativo."
-                  apresentacao={pdf2Aula8}
-                  roteiro={pdf4Aula8}
-                  link="https://drive.google.com/drive/folders/1kqqL-PkA3GsB85Nrmnk1bwlFsHitiLsz"
+                  subtitle=" Introdução às Condicionais"
+                  content="Exercícios em site interativo."                  
                 />
               </Grid>
               <Grid item>
