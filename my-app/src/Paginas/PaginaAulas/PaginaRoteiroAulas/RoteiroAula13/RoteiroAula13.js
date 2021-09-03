@@ -30,6 +30,7 @@ function RoteiroAula13() {
             logo, os blocos para gerenciar clones podem ser utilizados para criar esses objetos em
             tempo real enquanto o jogo está sendo executado.
             <br></br>Os blocos de gerenciamento de clones a serem apresentados são:
+            <br></br><br></br>
             <dl>
                 <dt>Crie clone de [este ator]</dt>
                 <dd>Cria um clone do ator onde este bloco é utilizado</dd>

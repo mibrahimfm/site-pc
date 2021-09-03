@@ -45,9 +45,9 @@ function RoteiroAula12() {
             dos valores aleatórios armazenados nas variáveis, logo, tanto as perguntas quanto as
             respostas terão valores diferentes a cada iteração do jogo. Desta forma, a verificação
             das respostas deve ser feita de tal forma que ela funcionará para quaisquer sejam os
-            valores das variáveis. Utilize a animação do jogo incluída na <i>Aula 12 - Apresentação</i>
+            valores das variáveis. Utilize a animação do jogo incluída na <i>Aula 12 - Apresentação</i> 
             para ilustrar o funcionamento do jogo para os alunos            
-            <br></br>Por fim é feita a distribuição das folhas <i>Aula 12 - Roteiro</i> aos alunos para que
+            <br></br><br></br>Por fim é feita a distribuição das folhas <i>Aula 12 - Roteiro</i> aos alunos para que
             eles deem início ao desenvolvimento da primeira versão do jogo. Para o roteiro da
             Aula 12, nós propomos três versões do jogo de perguntas e respostas de matemática,
             sendo que a primeira é a mais simples de ser implementada. Na versão I, os alunos

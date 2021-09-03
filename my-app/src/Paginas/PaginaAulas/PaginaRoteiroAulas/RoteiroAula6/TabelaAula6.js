@@ -67,7 +67,7 @@ export default function TabelaAula6(props) {
                 </StyledTableCell>
                 <StyledTableCell component="th" scope="row">
                     <li className={classes.paragraph}>
-                        <a id="simple-modal-description" href="">Kahoot 3 - Plano Cartesiano e Scratch</a>                        
+                        Kahoot 3 - Plano Cartesiano e Scratch
                     </li> 
                     <li className={classes.paragraph}>Scratch: Anime o seu Nome</li>
                 </StyledTableCell>

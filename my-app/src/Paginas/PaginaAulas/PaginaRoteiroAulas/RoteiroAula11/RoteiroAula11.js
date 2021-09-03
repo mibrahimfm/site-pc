@@ -30,7 +30,7 @@ function RoteiroAula11() {
             <p>
             O professor explica brevemente o que são os sensores no Scratch, relembrando os alunos 
             dos sensores que eles utilizaram nas aulas anteriores: <i>tocando em e tecla pressionada.</i> 
-            <br></br>Em seguida, o professor apresenta dois novos sensores que serão utilizados na aula: 
+            <br></br><br></br>Em seguida, o professor apresenta dois novos sensores que serão utilizados na aula: 
             <i>pergunte e resposta.</i> O sensor pergunte faz o personagem dizer algo e logo em seguida 
             exibe uma caixa de texto para que a resposta seja digitada. A resposta digitada pelo 
             usuário é então armazenada no sensor resposta, sendo que este sensor é basicamente 
@@ -41,20 +41,21 @@ function RoteiroAula11() {
             Por fim, o professor apresenta à turma a animação de um jogo de perguntas e respostas contendo duas perguntas sobre a Computação. 
             O professor deve chamar atenção para a caixa de texto que aparece no jogo, onde o usuário digita as respostas, e que a resposta 
             digitada deve ser exatamente a mesma que a resposta correta, ou seja, a inclusão de acentos é necessária caso a resposta correta contenha acentos gráficos.
-            <br></br>O último slide da <i>Aula 11 - Apresentação</i> contém um link com perguntas da 
+            <br></br><br></br>O último slide da <i>Aula 11 - Apresentação</i> contém um link com perguntas da 
             disciplina de ciências, juntamente com suas respostas, para que os alunos utilizem caso eles queiram. 
             No entanto, o professor pode encorajá-los a incluir perguntas relacionadas a temas de interesse, sendo elas relacionadas às disciplinas da escola ou não.
-            <br></br>OFinalmente, as folhas Aula 11 - Roteiro são distribuídas aos alunos e eles acessam suas contas para dar início a atividade prática. 
+            <br></br><br></br>Finalmente, as folhas <i>Aula 11 - Roteiro</i> são distribuídas aos alunos e eles acessam suas contas para dar início a atividade prática. 
             Da mesma forma que nos roteiros das aulas anteriores, propomos algumas modificações a serem implementadas para os 
             alunos que conseguirem finalizar o desenvolvimento do jogo antes da aula terminar. 
             As modificações propostas não são dependentes, então o professor pode deixar que os alunos escolham quais delas eles querem tentar fazer. 
             As seguintes modificações foram propostas:
+            <br></br><br></br>
             <dl>
-                <dt>Fazer o personagem introduzir o jogo.</dt>
-                <dt>Perguntar ao jogador se ele está pronto ou não para iniciar o jogo.</dt>
-                <dt>Adicionar cenários diferentes para cada pergunta</dt>
-                <dt>Adicionar um sistema de pontuação</dt>
-                <dt>Fazer o jogador perder se ele errar alguma pergunta</dt>
+                <dd>Fazer o personagem introduzir o jogo.</dd>
+                <dd>Perguntar ao jogador se ele está pronto ou não para iniciar o jogo.</dd>
+                <dd>Adicionar cenários diferentes para cada pergunta</dd>
+                <dd>Adicionar um sistema de pontuação</dd>
+                <dd>Fazer o jogador perder se ele errar alguma pergunta</dd>
             </dl>
             </p>
             <p>

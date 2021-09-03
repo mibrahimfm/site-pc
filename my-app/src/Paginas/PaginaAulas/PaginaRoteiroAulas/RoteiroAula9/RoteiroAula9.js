@@ -46,7 +46,7 @@ terminarem a implementação do projeto.
             </p>
             <p>
                 <i>
-                    <b>Obs.:</b>o projeto implementado pode ser acessado através do seguinte link:<a href="https://scratch.mit.edu/projects/475466923"> Aula 8 - Pong </a>                
+                    <b>Obs.:</b>o projeto implementado pode ser acessado através do seguinte link:<a href="https://scratch.mit.edu/projects/475466923"> Aula 9 - Pong </a>                
                 </i>
             </p>
             </body>

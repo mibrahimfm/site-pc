@@ -28,6 +28,7 @@ function RoteiroAula8() {
              parte da dinâmica. O número 5 está presente em ambas as partes com o objetivo de confundir os alunos, pois ele não é nem menor e nem maior que 5, sendo este um caso 
              que não cai em nenhuma das condições. Desta forma, os alunos não devem nenhuma palma em ambas as partes da dinâmica. 
              <br></br>Para finalizar a parte introdutória, o professor dá alguns exemplos de usos das condicionais referenciando as ferramentas que eles utilizaram no curso até o momento tais como:
+             <br></br><br></br>
                 <dl>
                     <dt>Login no Site do Scratch</dt>
                     <dd>Verificação se o usuário e a senha estão corretos. Se estiver correto, a plataforma deixa o usuário acessar a conta. Senão, uma mensagem de erro é exibida informando o usuário que as credenciais informadas estão erradas.</dd>
@@ -36,13 +37,13 @@ function RoteiroAula8() {
                     <dt>Code.org</dt>
                     <dd>Verificar SE o algoritmo está correto ou SE o número de blocos utilizados é o mínimo.</dd>
                 </dl>
-            </p>
-            <p>E depois, apresenta brevemente os blocos que serão utilizados pelos alunos para implementação do Jogo Pong durante o restante da aula.</p> 
+                <br></br>
+            E depois, apresenta brevemente os blocos que serão utilizados pelos alunos para implementação do Jogo Pong durante o restante da aula.</p> 
 
             <h5>Implementação do Jogo da Coleta</h5>
             <p>
             Agora, o professor apresenta o que os alunos estarão utilizando e desenvolvendo na parte prática da aula. Os novos blocos a serem utilizados nesta aula são os seguintes:  
-            
+            <br></br><br></br>
             <dl>
                 <dt>Bloco SE</dt>
                 <dd>Condicional simples que verifica se uma condição é verdadeira.</dd>

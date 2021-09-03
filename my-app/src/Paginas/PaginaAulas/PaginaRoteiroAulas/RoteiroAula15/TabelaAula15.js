@@ -5,7 +5,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
-import pdf1Aula15 from '../../../../Arquivos/aula15/Aula 15 - Apresentação.pdf'
+import pdf1Aula15 from '../../../../Arquivos/aula15/Aula 15 - Apresentação.pdf';
 
 const StyledTableRow = withStyles((theme) => ({
     root: {

@@ -5,8 +5,8 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
-import pdf1Aula11 from '../../../../Arquivos/aula11/Aula 11 - Apresentação.pptx'
-import pdf2Aula11 from '../../../../Arquivos/aula11/Aula 11 - Roteiro.pdf'
+import pdf1Aula11 from '../../../../Arquivos/aula11/Aula 11 - Apresentação.pptx';
+import pdf2Aula11 from '../../../../Arquivos/aula11/Aula 11 - Roteiro.docx';
 
 const StyledTableRow = withStyles((theme) => ({
     root: {

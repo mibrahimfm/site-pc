@@ -22,14 +22,15 @@ function RoteiroAula7() {
             </p>
             <h5>Revisão e Apresentação de Novos Blocos de Comando</h5>
             <p>
-            O professor inicia a aula conduzindo uma pequena revisão através da Aula 7 - Apresentação para relembrar os alunos dos blocos de eventos introduzidos na aula anterior. 
+            O professor inicia a aula conduzindo uma pequena revisão através da <i>Aula 7 - Apresentação</i> para relembrar os alunos dos blocos de eventos introduzidos na aula anterior. 
             O professor deve dar mais atenção para os seguintes eventos: quando a bandeira verde 
             for clicada e quando o ator for clicado. Estes dois eventos deverão ser utilizados pelos 
             alunos quando eles forem implementar o jogo durante o restante da aula. 
-            Além da revisão dos blocos de eventos, incluímos também na Aula 7 - Apresentação um slide com os principais blocos que os alunos irão utilizar na aula: mostre, 
+            Além da revisão dos blocos de eventos, incluímos também na <i>Aula 7 - Apresentação</i> um slide com os principais blocos que os alunos irão utilizar na aula: mostre, 
             esconda, vá para posição aleatória e espere 1 segundo. O professor deve explicar o 
             funcionamento destes blocos para que os alunos já tenham ideia de como utilizá-los 
-            quando eles forem seguir as tarefas da folha Aula 7 - Roteiro
+            quando eles forem seguir as tarefas da folha <i>Aula 7 - Roteiro</i>
+            <br></br><br></br>
                 <dl>
                     <dt>Mostre e esconda</dt>
                     <dd>Faz o personagem aparecer e desaparecer respectivamente.</dd>
@@ -50,8 +51,7 @@ function RoteiroAula7() {
             Após a explicação, o professor pede que os alunos entrem em suas contas e distribui a folha <i>Aula 7 - Roteiro</i> para eles enquanto eles estão fazendo login. O professor 
             deve falar com eles que eles devem tentar conduzir as tarefas do roteiro por conta própria e que só podem pedir ajuda depois de terem ao menos tentado implementar os 
             passos ou solucionar problemas.  
-            </p>
-            <p>
+            <br></br><br></br>
             Fale com os alunos que alguns destes blocos de eventos serão utilizados por eles
             em seguida quando eles forem conduzir a atividade desta aula.
             </p>
