@@ -18,12 +18,7 @@ import AulaCard from './AulaCard/AulaCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
 
-import pdf2Aula8 from '../../Arquivos/aula8/Aula 8 - Apresentação.pptx'
-import pdf4Aula8 from '../../Arquivos/aula8/Aula 8 - Roteiro.pdf'
-import pdf2Aula9 from '../../Arquivos/aula9/Aula 9 - Apresentação.pptx'
-import pdf4Aula9 from '../../Arquivos/aula9/Aula 9 - Roteiro.docx'
-import pdf2Aula10 from '../../Arquivos/aula10/Aula 10 - Apresentação.pdf'
-import pdf4Aula10 from '../../Arquivos/aula10/Aula 10 - Roteiro.pdf'
+
 import pdf2Aula11 from '../../Arquivos/aula11/Aula 11 - Apresentação.pptx'
 import pdf4Aula11 from '../../Arquivos/aula11/Aula 11 - Roteiro.docx'
 import pdf2Aula12 from '../../Arquivos/aula12/Aula 12 - Apresentação.pdf'
@@ -145,9 +140,8 @@ function PaginaAulas() {
                 <AulaCard
                   image={card8}
                   title="8"
-                  subtitle=" Introdução às Condicionais"
-                  content="Exercícios em site interativo."                  
-                />
+                  subtitle="Condicionais - Parte 1"
+                  content="Exercícios em site interativo."                />
               </Grid>
               <Grid item>
                 <AulaCard
@@ -155,9 +149,6 @@ function PaginaAulas() {
                   title="9"
                   subtitle="Condicionais - Parte 2"
                   content="Exercícios em site interativo."
-                  apresentacao={pdf2Aula9}
-                  roteiro={pdf4Aula9}
-                  link="https://drive.google.com/drive/folders/1TY5M_G37Yd95IDxuIcccAMuFs3qsXOWU"
                 />
               </Grid>
               <Grid item>
@@ -166,9 +157,6 @@ function PaginaAulas() {
                   title="10"
                   subtitle="Introdução às Variáveis"
                   content="Exercícios em site interativo."
-                  apresentacao={pdf2Aula10}
-                  roteiro={pdf4Aula10}
-                  link="https://drive.google.com/drive/folders/14YAB41hJb9I7DHXBWnQs8Ra2co34_t3N"
                 />
               </Grid>
               <Grid item>
