@@ -10,10 +10,16 @@ import RoteiroAula3 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula3/
 import RoteiroAula4 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula4/RoteiroAula4";
 import RoteiroAula5 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula5/RoteiroAula5";
 import RoteiroAula6 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula6/RoteiroAula6";
-import RoteiroAula9 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula9/RoteiroAula9";
-import RoteiroAula8 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula8/RoteiroAula8";
 import RoteiroAula7 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula7/RoteiroAula7";
+import RoteiroAula8 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula8/RoteiroAula8";
+import RoteiroAula9 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula9/RoteiroAula9";
 import RoteiroAula10 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula10/RoteiroAula10";
+import RoteiroAula11 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula11/RoteiroAula11";
+import RoteiroAula12 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula12/RoteiroAula12";
+import RoteiroAula13 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula13/RoteiroAula13";
+import RoteiroAula14 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula14/RoteiroAula14";
+import RoteiroAula15 from "./Paginas/PaginaAulas/PaginaRoteiroAulas/RoteiroAula15/RoteiroAula15";
+
 function App() {
   return (
     <>        
@@ -30,13 +36,13 @@ function App() {
         <Route path='/aula-6' component={RoteiroAula6}/>              
         <Route path='/aula-7' component={RoteiroAula7}/>              
         <Route path='/aula-8' component={RoteiroAula8}/>              
-        {/*<Route path='/aula-9' component={RoteiroAula9}/>              
+        <Route path='/aula-9' component={RoteiroAula9}/>              
         <Route path='/aula-10' component={RoteiroAula10}/>              
-        {/*<Route path='/aula-11' component={RoteiroAula11}/>              
+        <Route path='/aula-11' component={RoteiroAula11}/>              
         <Route path='/aula-12' component={RoteiroAula12}/>              
         <Route path='/aula-13' component={RoteiroAula13}/>              
         <Route path='/aula-14' component={RoteiroAula14}/>              
-        <Route path='/aula-15' component={RoteiroAula15}/>               */}
+        <Route path='/aula-15' component={RoteiroAula15}/>
 
         <Route path='/' component={Home}/>          
       </Switch>   

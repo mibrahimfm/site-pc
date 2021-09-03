@@ -11,8 +11,13 @@ import TabelaAula5 from '../PaginaRoteiroAulas/RoteiroAula5/TabelaAula5';
 import TabelaAula6 from '../PaginaRoteiroAulas/RoteiroAula6/TabelaAula6';
 import TabelaAula7 from '../PaginaRoteiroAulas/RoteiroAula7/TabelaAula7';
 import TabelaAula8 from '../PaginaRoteiroAulas/RoteiroAula8/TabelaAula8';
-import TabelaAula10 from '../PaginaRoteiroAulas/RoteiroAula10/TabelaAula10';
 import TabelaAula9 from '../PaginaRoteiroAulas/RoteiroAula9/TabelaAula9';
+import TabelaAula10 from '../PaginaRoteiroAulas/RoteiroAula10/TabelaAula10';
+import TabelaAula11 from '../PaginaRoteiroAulas/RoteiroAula11/TabelaAula11';
+import TabelaAula12 from '../PaginaRoteiroAulas/RoteiroAula12/TabelaAula12';
+import TabelaAula13 from '../PaginaRoteiroAulas/RoteiroAula13/TabelaAula13';
+import TabelaAula14 from '../PaginaRoteiroAulas/RoteiroAula14/TabelaAula14';
+import TabelaAula15 from '../PaginaRoteiroAulas/RoteiroAula15/TabelaAula15';
 
 function getModalStyle() {
   const top = 50;
@@ -62,11 +67,11 @@ export default function SimpleModal(props) {
       {props.title === '8' ? <TabelaAula8></TabelaAula8> : <div></div>}
       {props.title === '9' ? <TabelaAula9></TabelaAula9> : <div></div>}
       {props.title === '10' ? <TabelaAula10></TabelaAula10> : <div></div>}
-      {/*{props.title === '11' ? <TabelaAula11></TabelaAula11> : <div></div>}
+      {props.title === '11' ? <TabelaAula11></TabelaAula11> : <div></div>}
       {props.title === '12' ? <TabelaAula12></TabelaAula12> : <div></div>}
       {props.title === '13' ? <TabelaAula13></TabelaAula13> : <div></div>}
       {props.title === '14' ? <TabelaAula14></TabelaAula14> : <div></div>}
-      {props.title === '15' ? <TabelaAula15></TabelaAula15> : <div></div>} */}
+      {props.title === '15' ? <TabelaAula15></TabelaAula15> : <div></div>}
 
       <Button
         variant="dark" onClick={() => history.push(`/aula-${props.title}`)}>
