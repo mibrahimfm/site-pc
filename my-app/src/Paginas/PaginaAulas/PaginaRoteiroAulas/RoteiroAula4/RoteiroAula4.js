@@ -1,5 +1,6 @@
 import './RoteiroAula4.css';
 import TabelaAula4 from './TabelaAula4';
+import figura1A from '../../../../images/roteiro_aula_4.PNG';
 
 function RoteiroAula4() {
     return(
@@ -42,10 +43,12 @@ function RoteiroAula4() {
             O professor também deve relembrar os alunos que os círculos preenchidos com
             verde mais escuro indicam que a lição foi completada com o menor número de blocos
             e que os círculos preenchidos com verde mais claro indicam que eles utilizaram mais
-            blocos que o necessário no desafio (Figura A.1).             
+            blocos que o necessário no desafio.             
             <br></br>
             <br></br>
-            {/* TODO inserir imagem */}
+            <img src={figura1A}></img>
+            <br></br>
+            <br></br>
             Durante o restante da aula, os alunos devem continuar resolvendo os desafios da lição
             Labirinto: Ciclos sempre buscando utilizar o número mínimo de blocos. Conforme
             indicado na aula anterior, o Curso 2 do Code.org possui outras lições que abordam a 

@@ -1,5 +1,6 @@
 import './RoteiroAula10.css';
 import TabelaAula10 from './TabelaAula10';
+import figura2A from '../../../../images/roteiro_aula_10.PNG';
 
 function RoteiroAula10() {
     return(
@@ -40,11 +41,14 @@ de pontuação.
             <br></br>
             <br></br>
             Por fim, o professor introduz os dois blocos de comando para fazer a manipulação
-            de variáveis que os alunos utilizarão na atividade prática (Figura A.2).
+            de variáveis que os alunos utilizarão na atividade prática .
             <br></br>
             <br></br>
-                {/* TODO Inserir figura */}
-            
+
+            <img src={figura2A}></img>
+
+            <br></br>
+            <br></br>
             O professor explica o funcionamento dos comandos adicione [valor] a [variável] e
             mude [variável] para [valor], indicando que os alunos podem digitar valores nos campos
             em branco e que eles podem clicar em minha variável para selecionar qual variável será
