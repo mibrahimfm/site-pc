@@ -53,7 +53,7 @@ function RoteiroAula14() {
                 bandeira verde for clicada para implementar o que o personagem fará quando ele
                 receber determinada mensagem</dd>
             </dl>
-            <br></br><br></br>
+            <br></br>
             A <i>Aula 14 - Apresentação</i> ilustra os blocos e como o usuário pode criar novas 
             mensagens e nomeá-las. Exemplos de utilização dos blocos para implementar a pergunta final do lado esquerdo da árvore de decisão da estória do urso e morcego também 
             foram incluídos na apresentação para facilitar o entendimento dos alunos.

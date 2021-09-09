@@ -30,8 +30,8 @@ function RoteiroAula1() {
             e as habilidades do Pensamento Computacional têm no mundo de hoje. Em seguida,
             o professor deve apresentar uma visão geral do curso e das atividades que os alunos
             realizarão.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Os alunos podem ter expectativas que utilizarão os computadores em todas as
             aulas do GTD. Assim, é recomendado lembrá-los que embora o curso esteja focado na
             Computação e no Pensamento Computacional, atividades desplugadas serão conduzi-

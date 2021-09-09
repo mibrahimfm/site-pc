@@ -53,8 +53,7 @@ function RoteiroAula8() {
                 <dd>Indica se determinada tecla está sendo pressionada.</dd>
             </dl>
 
-            </p>
-            <p>
+            <br></br>
             Similarmente a aula anterior, antes de pedir para os alunos acessarem suas contas 
             do Scratch e distribuir as folhas <i>Aula 8 - Roteiro</i>, o professor explica aos alunos o 
             projeto que eles desenvolverão na aula com o auxílio de uma animação demonstrando 
@@ -65,8 +64,8 @@ function RoteiroAula8() {
             <br></br>O professor deve encorajar os alunos a tentar ao máximo implementar os passos 
             e resolver os problemas que eles enfrentarem sozinhos. Nas folhas <i>Aula 8 - Roteiro</i> foram incluídas algumas modificações que podem ser 
             implementadas pelos alunos que terminarem de implementar as funcionalidades básicas do projeto.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
                 <i>
                     <b>Obs.:</b>o projeto implementado pode ser acessado através do seguinte link: <a href="https://scratch.mit.edu/projects/475974434">Aula 8 - Introdução às condicionais</a>                
                 </i>

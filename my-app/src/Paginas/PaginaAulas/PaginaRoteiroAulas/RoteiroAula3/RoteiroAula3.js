@@ -22,8 +22,8 @@ function RoteiroAula3() {
             plugada. Após a condução de uma pequena revisão de conteúdo, os laços de repetição
             e suas utilidades serão apresentados aos alunos e eles praticarão o seu uso através da
             lição Labirinto: Ciclos do Curso 2 do Code.org.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             <i><b>Obs.:</b> o professor deve criar uma conta na plataforma Code.org e criar uma seção de aula
             para turma. Ao criar a seção, o professor deve atribuir o Curso 2 e adicionar os alunos à seção. Os
             alunos não precisam ter contas pessoais para serem adicionados. A plataforma atribuirá uma senha
@@ -43,13 +43,13 @@ function RoteiroAula3() {
             Portanto, é importante que o professor além de explicar o porquê da resposta correta
             estar certa, também explique, para as alternativas erradas que receberam respostas, o
             porquê delas estarem incorretas.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             <i><b>Obs.:</b>caso o LightBot tenha sido utilizado na aula anterior, o professor também pode conduzir
             um kahoot para os alunos revisarem os desafios do LightBot. O <a href="https://create.kahoot.it/share/pc1-2019-2-kahoot-2-lightbot/d325ba9c-872f-4e08-8cd9-b1f41c505f48">kahoot </a> 
             que criamos possui seis questões de revisão.</i>
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             <i><b>Obs.:</b>os resultados dos kahoots também podem ser utilizados pelo professor para que ele avalie
             o aprendizado dos alunos e reorganize aulas seguintes caso seja preciso.</i>
 
@@ -58,8 +58,9 @@ function RoteiroAula3() {
             <h5>Linguagem de Programação em Blocos no Code.org e Laços de Repetição</h5>
             <p>Finalizada a revisão de conteúdo, a plataforma Code.org e os laços de repetição, tópico
             da aula, devem ser apresentados aos alunos. A Aula 3 - Apresentação contém slides com a definição formal de laços de repetição, suas utilidades e exemplos de uso no
-            contexto do Code.org.</p>
-            <p>
+            contexto do Code.org.
+            <br></br>
+            <br></br>
             Antes do professor apresentar os laços de repetição, acesse a plataforma Code.org
             utilizando o computador conectado ao projetor de vídeo e introduza a plataforma
             aos alunos. Para a apresentação da plataforma e da linguagem de programação em
@@ -67,22 +68,22 @@ function RoteiroAula3() {
             Apresente a interface da ferramenta, os desafios, a linguagem de programação em blocos
             e como a linguagem é utilizada para solucionar os desafios ao resolver os primeiros
             desafios da lição junto com a turma.  
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Em seguida, o professor deve voltar para a Aula 3 - Apresentação para introduzir
             os laços de repetição para a turma. Primeiro, o professor deve apresentar formalmente
             o conceito. Em seguida, mostrar aos alunos como os laços podem ser utilizados para
             simplificar algoritmos. Slides com a definição e exemplificando a importância dos laços
             no contexto do Code.org foram incluídos na Aula 3 - Apresentação.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Para fixação do conteúdo, criamos slides com exercícios para serem conduzidos
             com a turma, onde os alunos devem indicar a ordem em que os comandos serão execu-
             tados dado um algoritmo do Code.org. Estes exercícios foram incluídos para que eles
             entendam o que acontece, no que diz respeito à execução dos comandos, quando os
             laços de repetição são utilizados.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Explicações sobre os slides foram colocadas como lembretes para auxiliar o professor caso necessário.
             </p>
 
@@ -92,9 +93,9 @@ function RoteiroAula3() {
             inicial da seção, o professor pode encontrar os cartões com as credenciais dos alunos,
             que contém a URL da seção e as suas senhas. Estes cartões podem ser impressos e
             distribuídos para a turma antes do início da atividade. Outra opção é a inclusão da
-            URL da seção e as credenciais dos alunos na apresentação de slides.</p>
-            <p>
-            
+            URL da seção e as credenciais dos alunos na apresentação de slides.
+            <br></br>
+            <br></br>
             Por fim, durante o resto da aula os alunos devem tentar resolver os desafios da
             lição. É importante que o professor frise que os alunos devem tentar resolver os desafios
             da lição utilizando o menor número de blocos de comando possível, o que representa a
@@ -102,8 +103,8 @@ function RoteiroAula3() {
             o Code.org irá informá-los se eles utilizaram o menor número de blocos ou não. Este
             feedback pode não ser percebido pelos alunos, logo é recomendável informá-los sobre
             quando e onde ele aparece na tela do computador durante a apresentação da ferramenta no início da aula.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Caso os alunos consigam finalizar todos os desafios da lição utilizando o número
             mínimo de blocos, há outras lições no Curso 2 que podem ser disponibilizadas à turma
             para que estes alunos tentem resolvê-las: Artista: Ciclos, Abelha: Ciclos. Porém,

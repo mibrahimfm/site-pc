@@ -133,6 +133,7 @@ function PaginaSobre(){
                     Os dois primeiros estudos foram para o ensino de Pensamento Computacional I, realizados nos semestres 2019/1 e 2019/2, com grupos diferentes de alunos, enquanto o terceiro estudo,
                     para o ensino de Pensamento Computacional II, foi realizado em 2019/2, com alunos do primeiro grupo que decidiram seguir com o estudo de Pensamento Computacional.
                 <br></br>
+                <br></br>
                 <dl>
                     <dt>Estudo I</dt>
                     <dd className="list-item">

@@ -54,9 +54,8 @@ function RoteiroAula7() {
             <br></br><br></br>
             Fale com os alunos que alguns destes blocos de eventos serão utilizados por eles
             em seguida quando eles forem conduzir a atividade desta aula.
-            </p>
-
-            <p>
+            <br></br>
+            <br></br>
                 <i>
                     <b>Recomendação:</b>corte a folha Aula 7 - Roteiro e separe as duas partes. Distribua apenas a 
                     PARTE I para os alunos inicialmente para evitar que eles tentem implementar os passos da PARTE 
@@ -64,20 +63,19 @@ function RoteiroAula7() {
                 </i>
             </p>
 
-            <h5>Implementação de modificaçõe</h5>
+            <h5>Implementação de modificações</h5>
             <p>
             Na folha <i>Aula 7 - Roteiro</i>, foram propostas modificações extras para que os alunos 
             que conseguirem finalizar a primeira parte do roteiro tentem implementá-las. Para os 
             alunos que finalizarem a PARTE I, peça que eles tentem implementar algumas das 
             modificações propostas na PARTE II.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
                 <i>
                     <b>Obs.:</b>o projeto com as modificações implementadas pode ser acessado através do seguinte link: <a href="https://scratch.mit.edu/projects/475285085">Aula 7 - Jogo de Clicar</a>                
                 </i>
-            </p>
-
-            <p>
+            <br></br>
+            <br></br>
             Caso um estúdio da turma tenha sido criado para os projetos da aula, peça 
             que os alunos compartilhem seus projetos e os adicionem ao estúdio depois que eles 
             terminarem a implementação do projeto

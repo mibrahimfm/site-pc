@@ -37,8 +37,8 @@ function RoteiroAula5() {
             da modificação dos valores x e y. Na Aula 5 - Apresentação, foram incluídos imagens
             do Plano Cartesiano juntamente com alguns exercícios de identificação de pontos para
             serem conduzidos com a turma para fixação do que foi aprendido.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Primeiramente, o professor deve explicar o que é o Plano Cartesiano e os eixos
             x e y de forma simplificada. Indique através do exemplo na apresentação, que o eixo
             x é a reta horizontal e representa as direções esquerda e direita. Similarmente, fale
@@ -46,14 +46,14 @@ function RoteiroAula5() {
             negativos do Plano Cartesiano, não é necessário que o conceito de números negativos
             seja explicado explicitamente aos alunos. O professor pode simplesmente, indicar que
             o sinal de menos (-) indica que o ponto abaixo do eixo x ou a esquerda do eixo y.   
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             O slide inicial também contém alguns exemplos de pontos com os seus valores
             para que o professor demonstre o que são os pontos e como identificá-los no plano.
             Finalmente, pergunte à turma se eles entenderam o que foi explicado e, caso necessário,
             explique novamente o que os alunos não conseguiram entender.  
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Por fim, o professor inicia a atividade de fixação com a turma. A atividade
             consiste em pedir aos alunos para identificar pontos que aparecem no plano cartesiano
             na Aula 5 - Apresentação. Os pontos aparecem um de cada vez conforme o professor
@@ -70,8 +70,8 @@ function RoteiroAula5() {
             O restante da sexta é alocado para a apresentação do Scratch aos alunos e o teste de
             blocos de comando responsáveis pela movimentação, mudança de aparência e repetição
             de ações.   
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Primeiramente, utilizando o computador conectado ao projetor de tela, o profes-
             sor apresenta o Scratch como um todo, indicando suas principais finalidades, ou seja,
             criação de jogos, animações e histórias. Após esta apresentação inicial, compartilhe
@@ -81,16 +81,16 @@ function RoteiroAula5() {
             sair delas no fim da aula. É importante chamar a atenção dos alunos para que eles não
             salvem suas senhas nos navegadores e sempre saiam de suas contas quando finalizarem
             as aulas.  
-            </p>
-            <p>
+            <br></br>
+            <br></br>
                 <i>
                     <b>Obs.:</b> a versão desktop do Scratch também pode ser utilizada, não sendo necessário que os
                     alunos acessem suas contas. Eles podem simplesmente abrir o Scratch no computador e começar a
                     utilizá-lo. A criação de turmas e a utilização de contas no Scratch online facilita o compartilhamento
                     dos projetos para que todos os alunos consigam visualizar e testar os projetos de seus colegas de turma.
                 </i>
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Em seguida, o professor pede aos alunos para testarem alguns dos blocos no
             Scratch. Esta etapa deve ser feita junto com toda a turma a fim de garantir que todos
             os alunos testem e consigam entender o funcionamento dos blocos mais comumente

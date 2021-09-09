@@ -46,15 +46,15 @@ function RoteiroAula13() {
             <p>
             Após o conceito de clones e os blocos para gerenciá-los serem apresentados aos estudantes, o professor introduz o jogo que será criado na aula. 
             Utilize a animação do jogo incluída na Aula 13 - Apresentação para ilustrar o funcionamento do jogo para os alunos.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             <i>
                     <b>Obs.:</b>o personagem no jogo será movimentado da mesma forma que o personagem que eles
                     programaram no Jogo da Coleta na Aula 8. Assim, acrescentamos um slide após o slide ilustrando o
                     funcionamento do jogo para relembrar os alunos do funcionamento do script que controla o personagem.
                 </i>
-            </p>                        
-            <p>
+                <br></br>
+                <br></br>
             Por fim é feita a distribuição das folhas <i>Aula 13 - Roteiro</i> aos alunos para que
             eles deem início ao desenvolvimento do jogo de desviar. O roteiro foi divido em três
             seções. Na primeira seção, os alunos programam o objeto que será clonado. Na segunda

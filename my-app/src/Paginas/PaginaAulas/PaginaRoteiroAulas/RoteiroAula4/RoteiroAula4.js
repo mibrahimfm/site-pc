@@ -30,23 +30,22 @@ function RoteiroAula4() {
             petição e de sua utilização na lição do Code.org e em seguida apresenta a dica para
             identificar ações que se repetem e para evitar a utilização de mais blocos que o neces-
             sário.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             A dica consiste em: (i) resolver o desafio sem a utilização dos blocos de repetição,
             (ii) analisar o algoritmo para identificar o conjunto de ações que se repetem, (iii) utilizar
             o bloco de repetição para repetir o conjunto de ações que se repete. Um exemplo foi
             incluído na Aula 4 - Apresentação para que os alunos visualizem a realização deste
             processo.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             O professor também deve relembrar os alunos que os círculos preenchidos com
             verde mais escuro indicam que a lição foi completada com o menor número de blocos
             e que os círculos preenchidos com verde mais claro indicam que eles utilizaram mais
-            blocos que o necessário no desafio (Figura A.1). 
-            </p>
-
+            blocos que o necessário no desafio (Figura A.1).             
+            <br></br>
+            <br></br>
             {/* TODO inserir imagem */}
-            <p>
             Durante o restante da aula, os alunos devem continuar resolvendo os desafios da lição
             Labirinto: Ciclos sempre buscando utilizar o número mínimo de blocos. Conforme
             indicado na aula anterior, o Curso 2 do Code.org possui outras lições que abordam a 

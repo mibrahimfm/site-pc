@@ -38,9 +38,9 @@ function RoteiroAula15() {
             mais sofisticados. Algumas sugestões que o professor pode dar são:
             <br></br><br></br>
             <dl>
-                <dd>inclusão de continuações para a estória depois dos dois fins originais</dd>
-                <dd>inclusão de cenário para representar o fim da estória</dd>
-                <dd>inclusão de diálogos iniciais entre os personagens da estória</dd>
+                <dd>- Inclusão de continuações para a estória depois dos dois fins originais</dd>
+                <dd>- Inclusão de cenário para representar o fim da estória</dd>
+                <dd>- Inclusão de diálogos iniciais entre os personagens da estória</dd>
             </dl>
             </p>
             <p>

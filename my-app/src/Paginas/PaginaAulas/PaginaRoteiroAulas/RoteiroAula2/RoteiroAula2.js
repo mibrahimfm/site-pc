@@ -48,8 +48,9 @@ function RoteiroAula2() {
             decomposta com os alunos: chamar e andar de elevador. Utilize a lousa ou um editor
             de texto do computador conectado ao projetor para anotar os passos ditos pelos alunos.
             É importante que este processo não seja interferido ou corrigido pelo professor. Deixe
-            que eles discutam entre si e construam o algoritmo.</p>
-            <p>
+            que eles discutam entre si e construam o algoritmo.
+            <br></br>
+            <br></br>
             Depois que a atividade de decomposição for finalizada, avance para o próximo
             slide e exiba o vídeo contido nele: Como ensinar linguagem de programação para uma
             criança. O vídeo exemplifica de uma maneira divertida e engraçada o quão importante é
@@ -68,8 +69,9 @@ function RoteiroAula2() {
             sobre a atividade e um exemplo interativo ilustrando o funcionamento dos comandos e
             o processo de resolução dos desafios também foram incluídas na Aula 2 - Apresentação
             para o professor utilizar. A atividade foi dividida em duas partes: Criado Algoritmo e
-            Criando Figuras.</p>
-            <p>
+            Criando Figuras.
+            <br></br>
+            <br></br>
             <b>Criando Algoritmos:</b> os alunos devem criar algoritmos para desenhar as figu-
             ras indicadas. Distribua as folhas do criando algoritmos para os alunos e peça que eles
             construam os algoritmos utilizando os cinco comandos que criarão as figuras dadas. A
@@ -82,13 +84,14 @@ function RoteiroAula2() {
             Esse nível possui oito desafios a serem solucionados. Nesses desafios os alunos devem
             utilizar os comandos disponíveis para fazer com que o robô acenda todos os ladrilhos
             azuis no cenário. Ele pode ser acessado através do seguinte link: <a href="https://lightbot.com/hour-of-code.html">LightBot - Hora do
-            Código.</a></p>
-                <p>
+            Código.</a>
+            <br></br>
+            <br></br>
                     <i>Obs.: é necessário que o professor verifique previamente se a versão Horá do Código está
                     disponível e se ela pode ser aberta nos computadores. Caso ela não esteja, recomendados que as
                     atividades apresentadas a seguir sejam realizadas na aula.</i>
                 </p>
-            <h6>Atividades para caso o LightBot não esteja disponível</h6>
+            <h6>Atividades para caso o LightBot não esteja disponível:</h6>
             <p>
                 <b>Criando Figuras:</b> os alunos devem criar suas próprias figuras e algoritmos que as
             criam para que colegas de turma os executem. O professor deve distribuir a folha de
@@ -102,15 +105,15 @@ function RoteiroAula2() {
             original. Caso diferenças existam, a dupla deve trabalhar junto para descobrir onde
             está o problema. O problema pode estar na execução incorreta do algoritmo ou nos
             próprios algoritmos e figuras disponibilizadas.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
                 <b>KidloCoding:</b>recomendamos que o professor apresente aos alunos o KidloCo-
             ding caso as atividades do Progamando em Papel sejam finalizadas muito rapidamente
             pelos alunos. A plataforma contém diferentes atividades envolvendo o sequenciamento
             de ações, loops, procedimentos, entre outras. O link a seguir leva diretamente aos
             desaffios do sequenciamento de ações: <a href="https://www.kidlocoding.com/sequences">KidloCoding </a>.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Deixe que os alunos acessem a plataforma e explorem as diferentes atividades e
             tentem resolver os desafios até o fim da aula. A plataforma está disponível apenas em
             inglês, porém o funcionamento das atividades é intuitivo o bastante para que os alunos

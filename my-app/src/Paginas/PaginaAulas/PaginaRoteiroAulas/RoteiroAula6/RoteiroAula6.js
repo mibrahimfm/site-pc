@@ -39,8 +39,8 @@ function RoteiroAula6() {
             eles são. Alguns exemplos de principais eventos utilizados nos projetos do Scratch são:
             quando a bandeira verde for clicada, quando teclas do teclado são pressionadas, quando
             o personagem for clicado.  
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Fale com os alunos que alguns destes blocos de eventos serão utilizados por eles
             em seguida quando eles forem conduzir a atividade desta aula.
             </p>
@@ -51,14 +51,14 @@ function RoteiroAula6() {
             os alunos devem criar animações para letras de seus nomes ou apelidos. As animações
             podem envolver a mudança da aparência das letras (alteração da cor, tamanho, etc.)
             ou a movimentação delas (girar, deslizar, etc.).
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             No primeiro momento da aula, introduza a atividade aos alunos. Diga sobre o
             que é a atividade, ou seja, <b>sobre a criação de animações para letras dos nomes
             dos alunos tais como mudança da aparência ou movimentação.</b>Em seguida,
             exiba no projetor de tela o <a href="https://scratch.mit.edu">vídeo tutorial</a> para dar ideias e inspirar os alunos.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Antes de iniciar a atividade, caso o professor queira dar uma motivação extra aos
             alunos, informe os alunos que os projetos serão compartilhados e apresentados para a
             turma ou no fim deste aula ou no começo da próxima. Diga também que uma votação
@@ -66,8 +66,8 @@ function RoteiroAula6() {
             regra para votação é que os alunos não podem votar em seus próprios projetos. Leve
             brindes para presentear os alunos que desenvolveram os projetos mais legais segundo
             a turma.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
                 <i>
                     <b>Recomendação:</b>para facilitar o compartilhamento e visualização, sugere-se a criação de um
                 Estúdio da turma para que os alunos coloquem seus projetos. Assim, o professor pode acessá-los e
@@ -75,8 +75,8 @@ function RoteiroAula6() {
                 mais interessantes, onde os alunos podem votar no projeto que acharem mais legal, também pode ser
                 incluída como forma de engajar e motivar os alunos.
                 </i>
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Finalmente, o professor pede que os alunos entrem em suas contas do Scratch
             e criem um novo projeto para o Anime seu Nome. Enquanto eles estão acessando a
             ferramenta, distribua as folhas Aula 6 - Roteiro para os alunos. Diga a eles, que o
@@ -84,8 +84,8 @@ function RoteiroAula6() {
             letra, porém frise que eles podem adicionar múltiplas animações para a mesma letra e
             que eles estão livres para combiná-las, modificá-las ou criar as suas próprias animações
             do zero.  
-            </p>
-            <p>
+            <br></br>
+            <br></br>
                 <i>
                     <b>Recomendação:</b>é recomendável que os roteiros sejam impressos em colorido para que os
                     alunos consigam encontrar os blocos mais facilmente.
@@ -100,15 +100,15 @@ function RoteiroAula6() {
             isto. Em seguida, o professor distribui para a turma os cartões de votação, relem-
             brando os alunos que eles devem escrever seus nomes e que eles não podem votar em
             seus próprios projetos. 
-            </p>
-            <p>
+            <br></br>
+            <br></br>
             Inicie a apresentação dos projetos, abra um projeto de cada vez e execute os
             scripts criados pelo dono dos projetos. Pode ser necessário que o professor questione
             os alunos sobre o funcionamento do projeto durante a apresentação para que ele seja executada da forma como foi visionada pelos alunos.
             Após a apresentação de todos os projetos, peça para que os alunos marquem no
             cartão de votação os projetos que eles mais gostaram.
-            </p>
-            <p>
+            <br></br>
+            <br></br>
                 <i>
                     <b>Obs.:</b>caso não seja possível realizar a apresentação, votação e contagem dos votos na Aula 6,
                 as conduza rapidamente no início da aula seguinte.
