@@ -1,3 +1,4 @@
+import * as IconBS from "react-bootstrap-icons";
 import './RoteiroAula12.css';
 import TabelaAula12 from './TabelaAula12';
 
@@ -65,13 +66,24 @@ function RoteiroAula12() {
                 <br></br><br></br>
                 <i>
                     <b>Obs.:</b>As três versões do Jogo de Perguntas e Respostas de Matemática podem ser acessada 
-                    através dos links abaixo: <a href="https://scratch.mit.edu/projects/476584444">Aula 12 - Perguntas e respostas II - V1</a>                
-                    <a href="https://scratch.mit.edu/projects/476851972">Aula 12 - Perguntas e respostas II - V2</a>
-                    <a href="https://scratch.mit.edu/projects/476846859">Aula 12 - Perguntas e respostas II - V3</a>
+                    através dos links abaixo: <br></br>
+                    &emsp;<a href="https://scratch.mit.edu/projects/476584444">Aula 12 - Perguntas e respostas II - V1</a> <br></br>               
+                    &emsp;<a href="https://scratch.mit.edu/projects/476851972">Aula 12 - Perguntas e respostas II - V2</a> <br></br>
+                    &emsp;<a href="https://scratch.mit.edu/projects/476846859">Aula 12 - Perguntas e respostas II - V3</a>
                 </i>
             </p>
             </body>
-        
+            <footer class='footer'>
+                <div class='row'>
+                    <div class="col">
+                        <a href='/aula-11'><IconBS.ChevronDoubleLeft/>Aula 11</a>
+                    </div>
+                    <div class="col text-right">
+                        <a href='/aula-13'>Aula 13<IconBS.ChevronDoubleRight/></a>
+                    </div>
+                </div>
+            </footer>
+
         </div>
     );
 }

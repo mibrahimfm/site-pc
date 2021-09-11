@@ -1,3 +1,4 @@
+import * as IconBS from "react-bootstrap-icons";
 import './RoteiroAula4.css';
 import TabelaAula4 from './TabelaAula4';
 import figura1A from '../../../../images/roteiro_aula_4.PNG';
@@ -56,9 +57,18 @@ function RoteiroAula4() {
             estas lições para a turma para e deixe que os alunos que conseguiram finalizar todos os
             desafios da lição Labirinto: Ciclos as explorem e tentem resolver alguns dos desafios.
             </p>
-
             </body>
-        
+            <footer class='footer'>
+                <div class='row'>
+                    <div class="col">
+                        <a href='/aula-3'><IconBS.ChevronDoubleLeft/>Aula 3</a>
+                    </div>
+                    <div class="col text-right">
+                        <a href='/aula-5'>Aula 5<IconBS.ChevronDoubleRight/></a>
+                    </div>
+                </div>
+            </footer>
+
         </div>
     );
 }

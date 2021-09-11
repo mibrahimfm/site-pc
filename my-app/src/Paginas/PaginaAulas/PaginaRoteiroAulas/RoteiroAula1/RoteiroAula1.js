@@ -1,3 +1,4 @@
+import * as IconBS from "react-bootstrap-icons";
 import './RoteiroAula1.css';
 import TabelaAula1 from './TabelaAula1';
 
@@ -65,9 +66,15 @@ function RoteiroAula1() {
             de resolução o número do desafio. Em seguida, o professor deve dizer aos alunos que
             eles devem testar as soluções que eles receberam seguindo o passo a passo registrado
             pelo seu colega de classe. Caso haja erros, peça que os alunos indiquem na folha de
-            resolução qual dos passos está errado.</p>
+            resolução qual dos passos está errado.</p>        
             </body>
-        
+            <footer class='footer'>
+                <div class='row'>
+                    <div class="col text-right">
+                        <a href='/aula-2'>Aula 2<IconBS.ChevronDoubleRight/></a>
+                    </div>
+                </div>
+            </footer>
         </div>
     );
 }

@@ -1,3 +1,4 @@
+import * as IconBS from "react-bootstrap-icons";
 import './RoteiroAula15.css';
 import TabelaAula15 from './TabelaAula15';
 
@@ -46,12 +47,19 @@ function RoteiroAula15() {
             <p>
                 <i>
                     <b>Obs.:</b>As implementação da estória do urso e do morcego podem ser acessadas através dos 
-                    seguintes links:<a href="https://scratch.mit.edu/projects/521534228/">Aula 15 e 15 - Estória Simplificada</a>
-                    <a href="https://scratch.mit.edu/projects/521581384/">Aula 15 e 15 - Estória Completa</a>
+                    seguintes links:<br/>
+                    &emsp;<a href="https://scratch.mit.edu/projects/521434228/">Aula 14 e 15 - Estória Simplificada</a><br/>
+                    &emsp;<a href="https://scratch.mit.edu/projects/521481384/">Aula 14 e 15 - Estória Completa</a>
                 </i>
             </p>
             </body>
-        
+            <footer class='footer'>
+                <div class='row'>
+                    <div class="col">
+                        <a href='/aula-14'><IconBS.ChevronDoubleLeft/>Aula 14</a>
+                    </div>
+                </div>
+            </footer>
         </div>
     );
 }

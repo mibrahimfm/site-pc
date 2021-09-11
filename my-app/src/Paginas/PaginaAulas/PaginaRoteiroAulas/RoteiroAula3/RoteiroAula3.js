@@ -1,3 +1,4 @@
+import * as IconBS from "react-bootstrap-icons";
 import './RoteiroAula3.css';
 import TabelaAula3 from './TabelaAula3';
 
@@ -113,7 +114,17 @@ function RoteiroAula3() {
             atividade na aula seguinte caso necessário.
             </p>
             </body>
-        
+            <footer class='footer'>
+                <div class='row'>
+                    <div class="col">
+                        <a href='/aula-2'><IconBS.ChevronDoubleLeft/>Aula 2</a>
+                    </div>
+                    <div class="col text-right">
+                        <a href='/aula-4'>Aula 4<IconBS.ChevronDoubleRight/></a>
+                    </div>
+                </div>
+            </footer>
+
         </div>
     );
 }

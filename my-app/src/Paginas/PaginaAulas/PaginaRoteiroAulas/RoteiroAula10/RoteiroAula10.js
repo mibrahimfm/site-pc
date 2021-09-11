@@ -1,3 +1,4 @@
+import * as IconBS from "react-bootstrap-icons";
 import './RoteiroAula10.css';
 import TabelaAula10 from './TabelaAula10';
 import figura2A from '../../../../images/roteiro_aula_10.PNG';
@@ -94,7 +95,17 @@ de pontuação.
                 </ul>
             </p>
             </body>
-        
+            <footer class='footer'>
+                <div class='row'>
+                    <div class="col">
+                        <a href='/aula-9'><IconBS.ChevronDoubleLeft/>Aula 9</a>
+                    </div>
+                    <div class="col text-right">
+                        <a href='/aula-11'>Aula 11<IconBS.ChevronDoubleRight/></a>
+                    </div>
+                </div>
+            </footer>
+
         </div>
     );
 }
